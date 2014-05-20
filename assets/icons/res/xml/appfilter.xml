@@ -130,6 +130,7 @@
     <item component="ComponentInfo{com.android.browser/com.motorola.android.browser.ChinaMobileActivity}" drawable="browser"/>
     <item component="ComponentInfo{com.android.browser/com.yulong.android.browser.BrowserStartPage}" drawable="browser"/>
     <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="calculator"/>
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator-Light}" drawable="calculator"/>
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" drawable="calendar"/>
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar"/>
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" drawable="calendar"/>
@@ -1467,8 +1468,8 @@
     <item component="ComponentInfo{it.medieval.blueftp/it.medieval.blueftp.AMain}" drawable="bluetoothfile"/>
     <item component="ComponentInfo{it.sineo.android.noFrillsCPU/it.sineo.android.noFrillsCPU.activity.MainActivity}" drawable="nofrills"/>
     <item component="ComponentInfo{it.sineo.android.noFrillsCPUClassic/it.sineo.android.noFrillsCPUClassic.activity.MainActivity}" drawable="nofrills"/>
-    <item component="ComponentInfo{jackpal.androidterm/jackpal.androidterm.Term}" drawable="terminal"/>
-    <item component="ComponentInfo{jackpal.androidterm2/jackpal.androidterm2.Term}" drawable="terminal"/>
+    <item component="ComponentInfo{jackpal.androidterm/jackpal.androidterm.Term}" drawable="terminalemulator"/>
+    <item component="ComponentInfo{jackpal.androidterm2/jackpal.androidterm2.Term}" drawable="terminalemulator"/>
     <item component="ComponentInfo{JakedUp.AppDrawer/JakedUp.AppDrawer.Main}" drawable="apps"/>
     <item component="ComponentInfo{jp.amazon.mShop.android/com.amazon.mShop.android.AmazonActivity}" drawable="amazon"/>
     <item component="ComponentInfo{jp.co.bii.android.app.dskvzr/jp.co.bii.android.app.dskvzr.DesktopVisualizerActivity}" drawable="desktopvisualizer"/>
@@ -2051,12 +2052,13 @@
     <item component="ComponentInfo{com.cyanogenmod.gallerynext/com.cyanogenmod.gallerynext.app.GalleryActivity}" drawable="gallery"/>
     <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="dspmanager"/>
     <item component="ComponentInfo{com.cyanogenmod.screencast/com.cyanogenmod.screencast.MainActivity}" drawable="chromecast"/>
-    <item component="ComponentInfo{com.ubercab/com.ubercab.activities.MapActivity}" drawable="uber"/>
-    <item component="ComponentInfo{com.google.android.voicesearch/com.google.android.voicesearch.RecognitionActivity}" drawable="voicesearch"/>
+    <item component="ComponentInfo{com.ubercab/com.ubercab.UBUberActivity}" drawable="uber"/>
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="voicesearch"/>
     <item component="ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.SplashActivity}" drawable="voice"/>
     <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="cash"/>
-    <item component="ComponentInfo{com.google.glass.companion/com.google.glass.companion.MyGlassActivity}" drawable="myglass"/>
+    <item component="ComponentInfo{com.google.glass.companion/com.google.glass.companion.Launcher}" drawable="myglass"/>
     <item component="ComponentInfo{com.foursquare.robin/com.foursquare.robin.MainActivity}" drawable="swarm"/>
-    <item component="ComponentInfo{com.lastpass.lpandroid/com.lastpass.lpandroid.LPandroid}" drawable="lastpass"/>
+    <item component="ComponentInfo{com.lastpass.lpandroid/com.lastpass.lpandroid.WebBrowserActivity}" drawable="lastpass"/>
     <item component="ComponentInfo{com.cyngn.screencast/com.cyngn.screencast.MainActivity}" drawable="cast"/>
+    <item component="ComponentInfo{com.cyngn.gallerynext/com.cyngn.gallerynext.app.GalleryActivity}" drawable="gallery"/>
 </resources>
