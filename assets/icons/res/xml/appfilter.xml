@@ -145,6 +145,7 @@
     <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera"/>
     <item component="ComponentInfo{com.android.camera/com.android.camera.GalleryPicker}" drawable="gallery"/>
     <item component="ComponentInfo{com.android.camera/com.android.camera.VideoCamera}" drawable="camcorder"/>
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraActivity}" drawable="camera"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.CallLogActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsFrontDoor}" drawable="contacts"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity}" drawable="contacts"/>
@@ -213,9 +214,9 @@
     <item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.DialerTabActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.htcdialer/com.android.htcdialer.Dialer}" drawable="phone"/>
     <item component="ComponentInfo{com.android.keepass/com.android.keepass.KeePass}" drawable="keeppassdroid"/>
-    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}" drawable="sms"/>
-    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="sms"/>
-    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MessageTabActivity}" drawable="sms"/>
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}" drawable="messages"/>
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="messages"/>
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MessageTabActivity}" drawable="messages"/>
     <item component="ComponentInfo{com.android.mms/com.android.mms.ui.VoiceMailTabActivity}" drawable="voicemail"/>
     <item component="ComponentInfo{com.android.music/com.android.music.list.activity.MpMainTabActivity}" drawable="music"/>
     <item component="ComponentInfo{com.android.music/com.android.music.MusicBrowserActivity}" drawable="music"/>
@@ -242,6 +243,7 @@
     <item component="ComponentInfo{com.android.settings/com.android.settings.TetherSettingsActivity}" drawable="settings"/>
     <item component="ComponentInfo{com.android.settings/com.android.settings.TetherSettingsWifi}" drawable="settings"/>
     <item component="ComponentInfo{com.android.settings/com.android.settings.TetherSettings}" drawable="settings"/>
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings"/>
     <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.AsusRecorder}" drawable="soundrecorder"/>
     <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.RecorderActivity}" drawable="soundrecorder"/>
     <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorderLauncher}" drawable="soundrecorder"/>
@@ -251,7 +253,6 @@
     <item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity}" drawable="simtoolkit"/>
     <item component="ComponentInfo{com.android.systemui/com.android.systemui.TorchActivity}" drawable="torch"/>
     <item component="ComponentInfo{com.android.task/com.android.task.TaskLaunchActivity}" drawable="tasks"/>
-    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="playstore"/>
     <item component="ComponentInfo{com.android.videoeditor/com.android.videoeditor.EffectsActivity}" drawable="moviestudio"/>
     <item component="ComponentInfo{com.android.videoeditor/com.android.videoeditor.OverlayTitleEditor}" drawable="moviestudio"/>
     <item component="ComponentInfo{com.android.videoeditor/com.android.videoeditor.OverlayTitleTemplatePicker}" drawable="moviestudio"/>
@@ -2050,4 +2051,12 @@
     <item component="ComponentInfo{com.cyanogenmod.gallerynext/com.cyanogenmod.gallerynext.app.GalleryActivity}" drawable="gallery"/>
     <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="dspmanager"/>
     <item component="ComponentInfo{com.cyanogenmod.screencast/com.cyanogenmod.screencast.MainActivity}" drawable="chromecast"/>
+    <item component="ComponentInfo{com.ubercab/com.ubercab.activities.MapActivity}" drawable="uber"/>
+    <item component="ComponentInfo{com.google.android.voicesearch/com.google.android.voicesearch.RecognitionActivity}" drawable="voicesearch"/>
+    <item component="ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.SplashActivity}" drawable="voice"/>
+    <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="cash"/>
+    <item component="ComponentInfo{com.google.glass.companion/com.google.glass.companion.MyGlassActivity}" drawable="myglass"/>
+    <item component="ComponentInfo{com.foursquare.robin/com.foursquare.robin.MainActivity}" drawable="swarm"/>
+    <item component="ComponentInfo{com.lastpass.lpandroid/com.lastpass.lpandroid.LPandroid}" drawable="lastpass"/>
+    <item component="ComponentInfo{com.cyngn.screencast/com.cyngn.screencast.MainActivity}" drawable="cast"/>
 </resources>
