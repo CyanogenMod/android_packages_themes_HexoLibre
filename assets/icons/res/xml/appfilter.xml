@@ -2065,7 +2065,7 @@
     <item component="ComponentInfo{com.cloudmagic.mail/com.cloudmagic.android.HomeScreenActivity}" drawable="cloudmagic"/>
     <item component="ComponentInfo{com.fandango/com.fandango.Fandango}" drawable="fandango"/>
     <item component="ComponentInfo{com.mobiata.flighttrack.five/com.mobiata.flighttrack.app.MyFlightsActivity}" drawable="flighttrack"/>
-    <item component="ComponentInfo{com.delta.mobile.android/com.delta.mobile.android/.SplashScreen}" drawable="flydelta"/>
+    <item component="ComponentInfo{com.delta.mobile.android/com.delta.mobile.android.SplashScreen}" drawable="flydelta"/>
     <item component="ComponentInfo{net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity}" drawable="muzei"/>
     <item component="ComponentInfo{org.ilumbo.ovo/org.ilumbo.ovo.GUIActivity}" drawable="ovotimer"/>
     <item component="ComponentInfo{com.quickoffice.android/com.google.android.apps.docs.quickoffice.HomeActivity}" drawable="quickoffice"/>
