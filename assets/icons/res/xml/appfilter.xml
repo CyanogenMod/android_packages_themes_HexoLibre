@@ -148,60 +148,60 @@
     <item component="ComponentInfo{com.android.camera/com.android.camera.VideoCamera}" drawable="camcorder"/>
     <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraActivity}" drawable="camera"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.CallLogActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsFrontDoor}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsFrontDoor}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PCUDialtactsActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.contactsActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PhoneFrontDoor}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.contactsActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PhoneFrontDoor}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.BaiJiaXingActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.BaiJiaXingActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallDialtactsActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallLogActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallLogShortcut}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallLog}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactHostActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityEx}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityLauncher}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactHostActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityEx}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityLauncher}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsMainFromHomeActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsMainFromHomeActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.dialer.DialerPhoneActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialerActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsDialerEntryActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallsListActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallsListActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.PhoneContactsActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.PhoneDialtactsActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallLogLaunchActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsEntryActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallLogLaunchActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsEntryActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsLauncherActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDailerActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDailerActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDialerActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDialerListActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.tmo.LaunchCommunityActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.TransparentActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDialerListActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.tmo.LaunchCommunityActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.TransparentActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.TwelveKeyDialer}" drawable="phone"/>
     <item component="ComponentInfo{com.android.contacts/com.oppo.contacts.OppoDialtactsActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="phone"/>
-    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookSplitTopMenuActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookTopMenuActivity}" drawable="contacts"/>
-    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.RecntcallEntryActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookSplitTopMenuActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookTopMenuActivity}" drawable="people"/>
+    <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.RecntcallEntryActivity}" drawable="people"/>
     <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock"/>
     <item component="ComponentInfo{com.android.development/com.android.development.Development}" drawable="devtools"/>
@@ -209,7 +209,7 @@
     <item component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="filemanager"/>
     <item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraLauncher}" drawable="camera"/>
     <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="gallery"/>
-    <item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.BrowseLayerCarouselActivity}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.BrowseLayerCarouselActivity}" drawable="people9"/>
     <item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.ContactsSearch}" drawable="phone"/>
     <item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.ContactsTabActivity}" drawable="phone"/>
     <item component="ComponentInfo{com.android.htccontacts/com.android.htccontacts.DialerTabActivity}" drawable="phone"/>
@@ -984,7 +984,6 @@
     <item component="ComponentInfo{com.protrade.sportacular/com.protrade.sportacular.activities.StartupActivity}" drawable="sportacular"/>
     <item component="ComponentInfo{com.psrivastava.deviceframegenerator/com.psrivastava.deviceframegenerator.ui.MainActivity}" drawable="deviceframe"/>
     <item component="ComponentInfo{com.pt.wshhp/com.pt.wshhp.WSSplashScreen}" drawable="worldstarhiphop"/>
-    <item component="ComponentInfo{com.qo.android.am3/com.qo.android.quickoffice.QuickofficeDispatcher}" drawable="quickoffice"/>
     <item component="ComponentInfo{com.quintstoffers.DataSync.beta/com.quintstoffers.DataSync.beta.DataSync}" drawable="datasync"/>
     <item component="ComponentInfo{com.quintstoffers.DataSync.key/com.quintstoffers.DataSync.key.LicenseActivity}" drawable="datasync"/>
     <item component="ComponentInfo{com.quintstoffers.DataSync/com.quintstoffers.DataSync.DataSync}" drawable="datasync"/>
@@ -1246,7 +1245,7 @@
     <item component="ComponentInfo{com.timsu.astrid/com.todoroo.astrid.welcome.WelcomeScreen}" drawable="astrid"/>
     <item component="ComponentInfo{com.tinyco.monsters/com.tinyco.monsters.MonstersGameActivity}" drawable="tinymonsters2"/>
     <item component="ComponentInfo{com.tinypiece.android.ipf/com.fotolr.photoshake.activity.PhotoShakeActivity}" drawable="instapicframe"/>
-    <item component="ComponentInfo{com.tmobile.pr.mytmobile/com.tmobile.pr.mytmobile.MyTMobileActivity}" drawable="tmobileaccount"/>
+    <item component="ComponentInfo{com.tmobile.pr.mytmobile/com.tmobile.pr.mytmobile.MyTMobileActivity}" drawable="tmobilemyaccount"/>
     <item component="ComponentInfo{com.tmobile.selfhelp/com.tmobile.selfhelp.MyDeviceLauncherActivity}" drawable="tmobilephone"/>
     <item component="ComponentInfo{com.tmobile.selfhelp/com.tmobile.selfhelp.SelfHelp}" drawable="tmobile"/>
     <item component="ComponentInfo{com.tmobile.vvm.application/com.tmobile.vvm.application.activity.setup.WelcomeActivity}" drawable="voicemail"/>
@@ -2061,4 +2060,15 @@
     <item component="ComponentInfo{com.lastpass.lpandroid/com.lastpass.lpandroid.WebBrowserActivity}" drawable="lastpass"/>
     <item component="ComponentInfo{com.cyngn.screencast/com.cyngn.screencast.MainActivity}" drawable="cast"/>
     <item component="ComponentInfo{com.cyngn.gallerynext/com.cyngn.gallerynext.app.GalleryActivity}" drawable="gallery"/>
+    <item component="ComponentInfo{com.cyngn.theme.store/com.cyngn.theme.store.StoreActivity}" drawable="themestore"/>
+    <item component="ComponentInfo{com.linkbubble.playstore/com.linkbubble.ui.HomeActivity}" drawable="linkbubble"/>
+    <item component="ComponentInfo{com.cloudmagic.mail/com.cloudmagic.android.HomeScreenActivity}" drawable="cloudmagic"/>
+    <item component="ComponentInfo{com.fandango/com.fandango.Fandango}" drawable="fandango"/>
+    <item component="ComponentInfo{com.mobiata.flighttrack.five/com.mobiata.flighttrack.app.MyFlightsActivity}" drawable="flighttrack"/>
+    <item component="ComponentInfo{com.delta.mobile.android/com.delta.mobile.android/.SplashScreen}" drawable="flydelta"/>
+    <item component="ComponentInfo{net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity}" drawable="muzei"/>
+    <item component="ComponentInfo{org.ilumbo.ovo/org.ilumbo.ovo.GUIActivity}" drawable="ovotimer"/>
+    <item component="ComponentInfo{com.quickoffice.android/com.google.android.apps.docs.quickoffice.HomeActivity}" drawable="quickoffice"/>
+    <item component="ComponentInfo{com.underwood.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar"/>
+    <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="newsandweather"/>
 </resources>
