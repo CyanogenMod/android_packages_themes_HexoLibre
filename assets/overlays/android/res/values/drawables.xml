@@ -5,6 +5,4 @@
     <item type="drawable" name="notification_bg_low_pressed">#00000000</item>
     <item type="drawable" name="notification_bg_normal">#00000000</item>
     <item type="drawable" name="notification_bg_normal_pressed">#00000000</item>
-    <item type="drawable" name="notification_template_icon_bg">#00000000</item>
-    <item type="drawable" name="notification_template_icon_low_bg">#00000000</item>
 </resources>
