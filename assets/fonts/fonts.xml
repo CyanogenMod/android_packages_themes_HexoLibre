@@ -41,10 +41,10 @@
             <name>sans-serif-condensed</name>
         </nameset>
         <fileset>
-            <file>LatoSRegCon.ttf</file>
-            <file>LatoSBolCon.ttf</file>
-            <file>LatoSRegConIta.ttf</file>
-            <file>LatoSBolConIta.ttf</file>
+            <file>LatoUI-BCondRegular.ttf</file>
+            <file>LatoUI-BCondBold.ttf</file>
+            <file>LatoUI-BCondItalic.ttf</file>
+            <file>LatoUI-BCondBoldItalic.ttf</file>
         </fileset>
     </family>
 </familyset>
