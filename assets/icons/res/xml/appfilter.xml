@@ -594,7 +594,7 @@
     <item component="ComponentInfo{com.glu.ewarriors2/com.google.android.vending.expansion.downloader_impl.DownloaderActivity}" drawable="eternitywarriors2"/>
     <item component="ComponentInfo{com.glympse.android.glympse/com.glympse.android.glympse.ActivitySplash}" drawable="glympse"/>
     <item component="ComponentInfo{com.goodreads/com.goodreads.android.activity.MainMenuActivity}" drawable="goodreads"/>
-    <item component="ComponentInfo{com.google.zxing.client.android/com.google.zxing.client.android.CaptureActivity}" drawable="barcodescanner"/>
+    <item component="ComponentInfo{com.google.zxing.client.android/com.google.zxing.client.android.CaptureActivity}" drawable="barcode"/>
     <item component="ComponentInfo{com.gosub60.solfree2/com.gosub60.solfree2.GS60_Android_Main}" drawable="solitairedeluxe"/>
     <item component="ComponentInfo{com.gosub60.solpaid/com.gosub60.solpaid.GS60_Android_Main}" drawable="solitairedeluxe"/>
     <item component="ComponentInfo{com.gotv.crackle.handset/com.gotv.crackle.LoadingActivity}" drawable="crackle"/>
@@ -2067,8 +2067,9 @@
     <item component="ComponentInfo{com.mobiata.flighttrack.five/com.mobiata.flighttrack.app.MyFlightsActivity}" drawable="flighttrack"/>
     <item component="ComponentInfo{com.delta.mobile.android/com.delta.mobile.android.SplashScreen}" drawable="flydelta"/>
     <item component="ComponentInfo{net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity}" drawable="muzei"/>
-    <item component="ComponentInfo{org.ilumbo.ovo/org.ilumbo.ovo.GUIActivity}" drawable="ovotimer"/>
+    <item component="ComponentInfo{org.ilumbo.ovo/org.ilumbo.ovo.TimerActivity}" drawable="ovotimer"/>
     <item component="ComponentInfo{com.quickoffice.android/com.google.android.apps.docs.quickoffice.HomeActivity}" drawable="quickoffice"/>
     <item component="ComponentInfo{com.underwood.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar"/>
     <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="newsandweather"/>
+    <item component="ComponentInfo{com.yahoo.mobile.client.android.atom/com.yahoo.mobile.client.android.atom.ui.activity.NewsDigestActivity" drawable="yahoodigest"/>
 </resources>
