@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Core" parent="@android:style/Theme.Material" />
+
+    <style name="Theme.Material.BaseDialog" parent="Theme.Core">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textAppearance">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.Material.ListPopupWindow" parent="Theme.Core">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+</resources>

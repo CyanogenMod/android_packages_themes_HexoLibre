@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hexoStatus">#1a1a1a</color>
+    <color name="hexoExpanded">#0b0b0b</color>
+    <color name="hexoWhite">#f3f3f3</color>
+
+    <color name="system_primary_color">#ff0b0b0b</color>
+    <color name="system_secondary_color">#ff1a1a1a</color>
+    <color name="system_accent_color">#ff6cd2ea</color>
+    <color name="system_warning_color">#ff6cd2ea</color>
+    <color name="qs_text">#FFFFFFFF</color>
+    <color name="qs_tile_divider">#00ffffff</color>
+
+    <color name="notification_material_background_color">#fff3f3f3</color>
+    <color name="notification_material_background_dimmed_color">#fff3f3f3</color>
+    <color name="notification_material_background_low_priority_color">#fff3f3f3</color>
+    <color name="notification_material_background_media_default_color">#fff3f3f3</color>
+
+    <color name="notification_ripple_untinted_color">#28000000</color>
+    <color name="qs_detail_transition">#66FFFFFF</color>
+    <color name="qs_subhead">#99FFFFFF</color>
+</resources>

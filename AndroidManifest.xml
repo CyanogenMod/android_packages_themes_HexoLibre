@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest android:versionCode="1" android:versionName="1.0" package="com.cyngn.hexo"
+<manifest android:versionCode="2000" android:versionName="2.0" package="com.cyngn.hexo"
   xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-feature android:name="" />
 
     <application
-        android:label="@string/name"
+        android:label="@string/theme_name"
         android:icon="@drawable/ic_launcher"
         android:hasCode="false" />
 
-    <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/name" />
-    <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/author" />
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name" />
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/theme_author" />
 </manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="DocumentsTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarPopupTheme">@android:style/ThemeOverlay.Material.Dark</item>
+    </style>
+
+</resources>
