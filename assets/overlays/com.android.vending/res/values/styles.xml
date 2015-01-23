@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.AppCompat.ListPopupWindow" parent="@android:style/Theme.Material">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.AppCompat.PopupMenu.Overflow" parent="@android:style/Theme.Material">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.PopupMenu.Overflow" parent="@android:style/Theme.Material">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.AppCompat.PopupMenu" parent="@android:style/Theme.Material">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.PopupMenu" parent="@android:style/Theme.Material">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.AppCompat.ListView.Menu" parent="@android:style/Theme.Material">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.AppCompat.PopupWindow" parent="@android:style/Theme.Material">
+        <item name="android:popupBackground">@color/theme_white</item>
+    </style>
+
+</resources>

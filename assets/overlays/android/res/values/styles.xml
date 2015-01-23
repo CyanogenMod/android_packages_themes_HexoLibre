@@ -9,7 +9,23 @@
     </style>
 
     <style name="Widget.Material.ListPopupWindow" parent="Theme.Core">
-        <item name="android:popupBackground">@color/theme_white</item>
+        <item name="android:popupBackground">#1a1a1a</item>
+        <item name="android:textColor">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.Material.Light.ListPopupWindow" parent="Theme.Core">
+        <item name="android:popupBackground">#1a1a1a</item>
+        <item name="android:textColor">@color/theme_white</item>
+    </style>
+
+    <style name="Widget.Material.Light.PopupWindow" parent="Widget.Material.ListPopupWindow" />
+
+    <style name="Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Material">
+        <item name="android:actionBarPopupTheme">@style/Widget.Material.ListPopupWindow</item>
+    </style>
+
+    <style name="Theme.Material.Light" parent="@android:style/Theme.Material.Light">
+        <item name="android:actionBarPopupTheme">@style/Widget.Material.ListPopupWindow</item>
     </style>
 
 </resources>

@@ -8,26 +8,26 @@
         <item name="android:colorPrimary">#ff1a1a1a</item>
         <item name="android:colorPrimaryDark">#ff1a1a1a</item>
         <item name="android:background">#ff0b0b0b</item>
-        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorPrimary">#fff3f3f3</item>
         <item name="android:textColorSecondary">#fff3f3f3</item>
     </style>
    
     <style name="wifi_item_label">
         <item name="android:textAppearance">@android:style/TextAppearance.Material.Body1</item>
         <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColor">#fff3f3f3</item>
         <item name="android:textAlignment">viewStart</item>
         <item name="android:paddingStart">8.0dip</item>
     </style>
 
     <style name="wifi_item_content">
         <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
-        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColor">#fff3f3f3</item>
         <item name="android:textAlignment">viewStart</item>
     </style>
 
     <style name="wifi_item_edit_content">
-	    <item name="android:textColor">#ffffffff</item>
+	    <item name="android:textColor">#fff3f3f3</item>
         <item name="android:textSize">14.0sp</item>
         <item name="android:paddingStart">4.0dip</item>
         <item name="android:layout_marginStart">4.0dip</item>
@@ -46,8 +46,8 @@
 		<item name="android:colorPrimary">#ff1a1a1a</item>
 		<item name="android:colorPrimaryDark">#ff1a1a1a</item>
 		<item name="android:background">#ff1a1a1a</item>
-		<item name="android:textColorPrimary">#ffffffff</item>
-		<item name="android:textColorSecondary">#ffffffff</item>
+		<item name="android:textColorPrimary">#fff3f3f3</item>
+		<item name="android:textColorSecondary">#fff3f3f3</item>
     </style>
   
    

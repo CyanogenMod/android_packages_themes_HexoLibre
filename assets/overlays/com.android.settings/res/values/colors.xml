@@ -6,7 +6,7 @@
     <color name="theme_accent">#ff6cd2ea</color>
     <color name="wifi_divider">#ff6cd2ea</color>
     <color name="dashboard_background_color">#ff232323</color>
-    <color name="switchbar_background_color">#ff1a1a1a</color>
-    <color name="switch_accent_color">#ffffffff</color>
+    <color name="switchbar_background_color">#ff0b0b0b</color>
+    <color name="switch_accent_color">#ff6cd2ea</color>
 
 </resources>
