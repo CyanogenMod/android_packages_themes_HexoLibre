@@ -2,7 +2,122 @@
 <resources>
    
     <color name="theme_white">#FFf3f3f3</color>
+    <color name="theme_dark">#FF1a1a1a</color>
+    <color name="theme_black">#FF0b0b0b</color>
     <color name="theme_accent">#FF6cd2ea</color>
-    <color name="button_material_dark">#ff1a1a1a</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- User icon colors -->
+    <color name="user_icon_1">#FFffd200</color>
+    <color name="user_icon_2">@color/theme_accent</color>
+    <color name="user_icon_3">@color/theme_accent</color>
+    <color name="user_icon_4">@color/theme_accent</color>
+    <color name="user_icon_5">@color/theme_accent</color>
+    <color name="user_icon_6">@color/theme_accent</color>
+    <color name="user_icon_7">@color/theme_accent</color>
+    <color name="user_icon_8">@color/theme_accent</color>
+
+    <!-- Primary & accent colors -->
+    <color name="material_deep_teal_200">@color/theme_accent</color>
+    <color name="material_deep_teal_500">@color/theme_accent</color>
+    <color name="material_blue_grey_800">@color/theme_dark</color>
+    <color name="material_blue_grey_900">@color/theme_dark</color>
+    <color name="material_blue_grey_950">@color/theme_dark</color>
+
+    <color name="background_material_dark">@color/theme_dark</color>
+    <color name="background_material_light">#ffeeeeee</color>
+    <color name="background_floating_material_dark">@color/theme_dark</color>
+    <color name="background_floating_material_light">#ffeeeeee</color>
+
+    <color name="primary_material_dark">@color/theme_dark</color>
+    <color name="primary_material_light">#ffbdbdbd</color>
+    <color name="primary_dark_material_dark">@color/theme_black</color>
+    <color name="primary_dark_material_light">#ff757575</color>
+
+    <color name="ripple_material_dark">#806cd2ea</color>
+    <color name="ripple_material_light">#806cd2ea</color>
+
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+
+    <color name="button_material_dark">#ff282930</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+
+    <color name="switch_thumb_normal_material_dark">#ff282930</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+
+    <color name="bright_foreground_material_dark">@color/theme_white</color>
+    <color name="bright_foreground_material_light">@color/theme_dark</color>
+    <!-- White 50% -->
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <!-- Black 50% -->
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
+
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+
+    <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
+    <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+
+    <!-- TODO: This is 40% alpha on the default accent color. -->
+    <color name="highlighted_text_material_dark">#666cd2ea</color>
+    <!-- TODO: This is 40% alpha on the default accent color. -->
+    <color name="highlighted_text_material_light">#666cd2ea</color>
+
+    <color name="link_text_material_dark">@color/material_deep_teal_200</color>
+    <color name="link_text_material_light">@color/material_deep_teal_500</color>
+
+    <!-- Text & foreground colors -->
+
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+
+    <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
+    <item name="disabled_alpha_material_dark" format="float" type="dimen">0.30</item>
+
+    <!-- Time picker defaults when no theme is set -->
+
+    <color name="timepicker_default_background_material">@color/primary_text_default_material_light</color>
+    <color name="timepicker_default_text_color_material">@color/theme_black</color>
+    <color name="timepicker_default_ampm_selected_background_color_material">@color/material_deep_teal_200</color>
+    <color name="timepicker_default_ampm_unselected_background_color_material">@color/transparent</color>
+    <color name="timepicker_default_selector_color_material">@color/material_deep_teal_200</color>
+    <color name="timepicker_default_numbers_background_color_material">@color/transparent</color>
+
+    <!-- DatePicker colors -->
+
+    <color name="datepicker_default_header_selector_background_material_light">@color/theme_white</color>
+    <color name="datepicker_default_header_selector_background_material_dark">@color/theme_dark</color>
+
+    <color name="datepicker_default_header_dayofweek_background_color_material_light">#999999</color>
+    <color name="datepicker_default_header_dayofweek_background_color_material_dark">@color/theme_white</color>
+
+    <color name="datepicker_default_normal_text_color_material_light">#ff999999</color>
+    <color name="datepicker_default_normal_text_color_material_dark">@color/theme_white</color>
+
+    <color name="datepicker_default_disabled_text_color_material_light">#80999999</color>
+    <color name="datepicker_default_disabled_text_color_material_dark">#80999999</color>
+
+    <color name="datepicker_default_selected_text_color_material_light">@color/theme_accent</color>
+    <color name="datepicker_default_selected_text_color_material_dark">@color/theme_accent</color>
+
+    <color name="datepicker_default_pressed_text_color_material_light">@color/theme_accent</color>
+    <color name="datepicker_default_pressed_text_color_material_dark">@color/theme_accent</color>
+
+    <color name="datepicker_default_circle_background_color_material_light">@color/material_deep_teal_500</color>
+    <color name="datepicker_default_circle_background_color_material_dark">@color/material_deep_teal_200</color>
+
+    <color name="datepicker_default_view_animator_color_material_light">#f2f2f2</color>
+    <color name="datepicker_default_view_animator_color_material_dark">#ff303030</color>
 
 </resources>

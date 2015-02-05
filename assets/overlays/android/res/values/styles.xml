@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Core" parent="@android:style/Theme.Material" />
-
-    <style name="Theme.Material.BaseDialog" parent="Theme.Core">
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:textAppearance">@color/theme_white</item>
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorBackground">@color/theme_dark</item>
+        <item name="android:colorPrimary">@color/theme_accent</item>
+        <item name="android:colorPrimaryDark">@color/theme_accent</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
-    <style name="Widget.Material.ListPopupWindow" parent="Theme.Core">
-        <item name="android:popupBackground">#1a1a1a</item>
+    <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/Theme.Material.Settings">
+        <item name="android:colorBackground">@color/theme_dark</item>
+        <item name="android:colorPrimary">@color/theme_accent</item>
+        <item name="android:colorPrimaryDark">@color/theme_accent</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
+    </style>
+
+    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Settings">
+        <item name="android:colorBackground">@color/theme_dark</item>
+        <item name="android:colorPrimary">@color/theme_accent</item>
+        <item name="android:colorPrimaryDark">@color/theme_accent</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
+    </style>
+
+    <style name="TextAppearance.Material.DialogWindowTitle" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/theme_accent</item>
+    </style>
+
+    <!-- Notifications -->
+    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
         <item name="android:textColor">@color/theme_white</item>
     </style>
 
-    <style name="Widget.Material.Light.ListPopupWindow" parent="Theme.Core">
-        <item name="android:popupBackground">#1a1a1a</item>
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">@dimen/notification_text_size</item>
         <item name="android:textColor">@color/theme_white</item>
     </style>
 
-    <style name="Widget.Material.Light.PopupWindow" parent="Widget.Material.ListPopupWindow" />
-
-    <style name="Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Material">
-        <item name="android:actionBarPopupTheme">@style/Widget.Material.ListPopupWindow</item>
-    </style>
-
-    <style name="Theme.Material.Light" parent="@android:style/Theme.Material.Light">
-        <item name="android:actionBarPopupTheme">@style/Widget.Material.ListPopupWindow</item>
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification.Emphasis">
+        <item name="android:textColor">#66ffd200</item>
     </style>
 
 </resources>

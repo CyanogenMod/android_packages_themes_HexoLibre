@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">@*common:color/theme_white</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">@*common:color/theme_white</item>
+    </style>
+
+</resources>
