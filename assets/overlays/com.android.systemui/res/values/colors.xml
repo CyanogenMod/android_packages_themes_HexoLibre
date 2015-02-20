@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="theme_dark">#1a1a1a</color>
-    <color name="theme_accent">#FF6cd2ea</color>
-    <color name="theme_black">#0b0b0b</color>
-    <color name="theme_white">#f3f3f3</color>
+    <color name="theme_dark">@*common:color/theme_dark</color>
+    <color name="theme_accent">@*common:color/theme_primary</color>
+    <color name="theme_black">@*common:color/theme_black</color>
+    <color name="theme_white">@*common:color/theme_white</color>
 
-    <color name="system_primary_color">@color/theme_dark</color>
-    <color name="system_secondary_color">@color/theme_black</color>
-    <color name="system_accent_color">@color/theme_accent</color>
-    <color name="system_warning_color">@color/theme_accent</color>
+    <color name="system_primary_color">@*common:color/theme_dark</color>
+    <color name="system_secondary_color">@*common:color/theme_black</color>
+    <color name="system_accent_color">@*common:color/theme_primary</color>
+    <color name="system_warning_color">@*common:color/theme_primary</color>
 
-    <color name="qs_text">@color/theme_accent</color>
+    <color name="qs_text">@*common:color/theme_primary</color>
+    <color name="qs_tile_text">@*common:color/theme_primary</color>
     <color name="qs_tile_divider">#00ffffff</color>
     <color name="qs_detail_transition">#66FFFFFF</color>
-    <color name="qs_subhead">#996cd2ea</color>
+    <color name="qs_subhead">#9900b1e5</color>
 
-    <color name="notification_material_background_color">@color/theme_black</color>
-    <color name="notification_material_background_dimmed_color">@color/theme_black</color>
-    <color name="notification_material_background_low_priority_color">@color/theme_black</color>
-    <color name="notification_material_background_media_default_color">@color/theme_white</color>
+    <color name="notification_material_background_color">@*common:color/theme_dark</color>
+    <color name="notification_material_background_dimmed_color">@*common:color/theme_dark</color>
+    <color name="notification_material_background_low_priority_color">@*common:color/theme_dark</color>
+    <color name="notification_material_background_media_default_color">@*common:color/theme_white</color>
 
-    <color name="notification_ripple_untinted_color">#806cd2ea</color>
-    <color name="notification_ripple_color_low_priority">#486cd2ea</color>
-    <color name="notification_ripple_tinted_color">#806cd2ea</color>
+    <color name="notification_ripple_untinted_color">#8000b1e5</color>
+    <color name="notification_ripple_color_low_priority">#4800b1e5</color>
+    <color name="notification_ripple_tinted_color">#8000b1e5</color>
 
-    <color name="notification_guts_bg_color">@color/theme_dark</color>
-    <color name="notification_guts_title_color">#ffffffff</color>
-    <color name="notification_guts_text_color">#b2ffffff</color>
-    <color name="notification_guts_btn_color">#ffffffff</color>
+    <color name="notification_guts_bg_color">@*common:color/theme_dark</color>
+    <color name="notification_guts_title_color">@*common:color/theme_black</color>
+    <color name="notification_guts_text_color">@*common:color/theme_black</color>
+    <color name="notification_guts_btn_color">@*common:color/theme_black</color>
 
 </resources>

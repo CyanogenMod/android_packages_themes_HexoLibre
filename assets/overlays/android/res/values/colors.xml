@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   
-    <color name="theme_white">#FFf3f3f3</color>
-    <color name="theme_dark">#FF1a1a1a</color>
-    <color name="theme_black">#FF0b0b0b</color>
-    <color name="theme_accent">#FF6cd2ea</color>
-    <color name="transparent">#00000000</color>
+
+    <color name="theme_accent">@*common:color/theme_primary</color>
+    <color name="theme_dark">@*common:color/theme_dark</color>
+    <color name="theme_white">@*common:color/theme_white</color>
+    <color name="theme_black">@*common:color/theme_black</color>
+    <color name="transparent">@*common:color/theme_transparent</color>
 
     <!-- User icon colors -->
     <color name="user_icon_1">#FFffd200</color>
@@ -34,10 +34,10 @@
     <color name="primary_dark_material_dark">@color/theme_black</color>
     <color name="primary_dark_material_light">#ff757575</color>
 
-    <color name="ripple_material_dark">#806cd2ea</color>
-    <color name="ripple_material_light">#806cd2ea</color>
+    <color name="ripple_material_dark">#8000b1e5</color>
+    <color name="ripple_material_light">#8000b1e5</color>
 
-    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="accent_material_light">@color/material_deep_teal_200</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
 
     <color name="button_material_dark">#ff282930</color>
@@ -66,10 +66,18 @@
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
 
+    <color name="notification_action_color_filter">@color/theme_white</color>
+    <drawable name="notification_template_icon_bg">#3300b1e5</drawable>
+    <drawable name="notification_template_diviver">#00000000</drawable>
+    <color name="notification_media_primary_color">@color/primary_text_default_material_dark</color>
+    <color name="notification_media_secondary_color">@color/primary_text_default_material_dark</color>
+
+    <color name="notification_mtrl_action_textcolor">@*common:color/theme_white</color>
+
     <!-- TODO: This is 40% alpha on the default accent color. -->
-    <color name="highlighted_text_material_dark">#666cd2ea</color>
+    <color name="highlighted_text_material_dark">#6600b1e5</color>
     <!-- TODO: This is 40% alpha on the default accent color. -->
-    <color name="highlighted_text_material_light">#666cd2ea</color>
+    <color name="highlighted_text_material_light">#6600b1e5</color>
 
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>

@@ -2,7 +2,9 @@
 <manifest android:versionCode="2000" android:versionName="2.0" package="com.cyngn.hexo"
   xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-feature android:name="" />
+    <uses-sdk android:targetSdkVersion="21" android:minSdkVersion="21" />
+
+    <uses-feature android:name="org.cyanogenmod.theme.v1" />
 
     <application
         android:label="@string/theme_name"
@@ -11,4 +13,5 @@
 
     <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name" />
     <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/theme_author" />
+    <meta-data android:name="org.cyanogenmod.theme.email" android:value="@string/theme_email" />
 </manifest>

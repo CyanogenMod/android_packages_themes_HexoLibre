@@ -12,7 +12,7 @@
             android:name="progressBar"
             android:fillColor="#00000000"
             android:pathData="M4.8-17.6L17.6-4.8l-4.7,17.7l-17.7,4.7L-17.6,4.8l4.7-17.7 L4.8-17.6Z"
-            android:strokeColor="#FF6cd2ea"
+            android:strokeColor="#FF00b1e5"
             android:strokeLineCap="square"
             android:strokeLineJoin="miter"
             android:strokeWidth="4"
