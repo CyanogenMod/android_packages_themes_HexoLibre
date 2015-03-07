@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material" />
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@style/Theme.AppBar</item>
+        <item name="android:statusBarColor">#FF000000</item>
+    </style>
+
     <style name="Theme.Settings" parent="@style/Theme.SettingsBase" />
 
+    <style name="Theme.AppBar" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@*common:color/theme_black</item>
+    </style>
+
+    <style name="Theme.SubSettings" parent="@style/Theme.SettingsBase" />
+
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:actionBarStyle">@style/Theme.AppBar2</item>
+        <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:background">@color/theme_dark</item>
         <item name="android:colorBackground">@color/theme_dark</item>
         <item name="android:colorBackgroundCacheHint">@color/theme_accent</item>
         <item name="android:colorAccent">@color/theme_accent</item>
+    </style>
+
+    <style name="Theme.AppBar2" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:background">@*common:color/theme_black</item>
     </style>
 
     <style name="Theme.SubSettingsDialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">

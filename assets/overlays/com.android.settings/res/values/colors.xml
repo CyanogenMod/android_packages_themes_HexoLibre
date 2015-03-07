@@ -7,11 +7,12 @@
     <color name="theme_highlighter">@*common:color/theme_highlighter</color>
     <color name="theme_accent">@*common:color/theme_primary</color>
     <color name="theme_white">@*common:color/theme_white</color>
+    <color name="theme_black">@*common:color/theme_black</color>
     <color name="theme_dark">@*common:color/theme_dark</color>
 
     <!-- Color Redirects -->
     <color name="cardview_light_background">@*common:color/theme_dark</color>
-    <color name="cardview_dark_background">@*common:color/theme_dark</color>
+    <color name="cardview_dark_background">@*common:color/theme_black</color>
     <color name="dashboard_background_color">@*common:color/theme_dark</color>
     <color name="switchbar_background_color">@*common:color/theme_dark</color>
     <color name="dashboard_category_background_color">@*common:color/theme_dark</color>
