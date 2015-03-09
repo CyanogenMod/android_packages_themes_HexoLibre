@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Main" parent="@android:style/Theme.Material" />
+    <style name="Theme.Main" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@style/Theme.AppBar</item>
+        <item name="android:statusBarColor">#000</item>
+    </style>
+
+    <style name="Theme.AppBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@*common:color/theme_black</item>
+    </style>
 </resources>

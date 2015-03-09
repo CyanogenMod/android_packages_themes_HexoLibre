@@ -31,7 +31,7 @@
     <!-- ================================================== -->
     <!-- GOOGLE APPS                                        -->
     <!-- ================================================== -->
-
+<!--
     <item component="ComponentInfo{com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity}" drawable="google_newsandweather"/>
     <item component="ComponentInfo{com.google.zxing.client.android/com.google.zxing.client.android.CaptureActivity}" drawable="apps_barcodescanner"/>
     <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="google_hangouts"/>
@@ -64,7 +64,7 @@
     <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="google_wallet"/>
     <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.ConversationListActivity}" drawable="google_photos"/>
     <item component="ComponentInfo{com.google.android.apps.chromecast.app/.DiscoveryActivity}" drawable="google_chromecast"/>
-
+-->
     <!-- ================================================== -->
     <!-- SYSTEM                                             -->
     <!-- ================================================== -->
