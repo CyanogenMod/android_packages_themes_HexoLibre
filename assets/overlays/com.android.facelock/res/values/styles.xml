@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SecurityPreferenceButtonContainer" parent="@android:style/Widget.Material.Light.SegmentedButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+
+    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Material.Light.Button.Borderless">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="Theme.Settings" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@style/Theme.AppBar</item>
+        <item name="android:statusBarColor">#FF000000</item>
+        <item name="android:colorEdgeEffect">#8000b1e5</item>
+    </style>
+
+    <style name="Theme.AppBar" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@*common:color/theme_black</item>
+    </style>
+
+</resources>

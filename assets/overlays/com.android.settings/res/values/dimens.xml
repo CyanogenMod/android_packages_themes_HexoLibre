@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dashboard category panel elevation -->
+    <dimen name="dashboard_category_elevation">0dp</dimen>
+
+    <!-- Dashboard image tile size -->
+    <dimen name="dashboard_tile_image_size">24dp</dimen>
+
+</resources>
