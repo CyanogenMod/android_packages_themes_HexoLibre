@@ -16,5 +16,5 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false" android:color="#24000000" />
-    <item android:color="#ff0087ff" />
+    <item android:color="@*common:color/theme_primary" />
 </selector>

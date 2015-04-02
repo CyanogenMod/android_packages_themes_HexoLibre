@@ -2,40 +2,35 @@
 <resources>
 
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
-        <item name="android:actionBarStyle">@style/Theme.AppBar</item>
+        <item name="android:actionBarStyle">@style/Cyngn.AppBar</item>
+        <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:statusBarColor">#FF000000</item>
         <item name="android:colorEdgeEffect">#8000b1e5</item>
     </style>
 
     <style name="Theme.Settings" parent="@style/Theme.SettingsBase" />
 
-    <style name="Theme.AppBar" parent="@android:style/Widget.Material.Light.ActionBar">
+    <style name="Cyngn.AppBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@*common:color/theme_black</item>
+    </style>
+
+    <style name="Cyngn.AppBar.Theme" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:textColorPrimary">@*common:color/theme_white</item>
         <item name="android:background">@*common:color/theme_black</item>
     </style>
 
     <style name="Theme.SubSettings" parent="@style/Theme.SettingsBase" />
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
-        <item name="android:actionBarStyle">@style/Theme.AppBar2</item>
+        <item name="android:actionBarStyle">@style/Cyngn.AppBar</item>
+        <item name="android:actionBarTheme">@style/Cyngn.AppBar.Theme</item>
         <item name="android:actionBarWidgetTheme">@null</item>
-        <item name="android:background">@color/theme_dark</item>
         <item name="android:colorBackground">@color/theme_dark</item>
         <item name="android:colorBackgroundCacheHint">@color/theme_accent</item>
         <item name="android:colorAccent">@color/theme_accent</item>
         <item name="android:colorEdgeEffect">#8000b1e5</item>
         <item name="android:statusBarColor">#FF000000</item>
-    </style>
-
-    <style name="Theme.AppBar2" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">@*common:color/theme_black</item>
-    </style>
-
-    <style name="Theme.SubSettingsDialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
-        <item name="android:actionBarWidgetTheme">@null</item>
-        <item name="android:background">@color/theme_dark</item>
-        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
-        <item name="android:colorEdgeEffect">#8000b1e5</item>
-        <item name="android:statusBarColor">#FF000000</item>
+        <item name="preferenceBackgroundColor">@drawable/preference_background</item>
     </style>
 
     <style name="settingSeparator">
@@ -45,5 +40,21 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">1.0dip</item>
     </style>
+
+    <style name="wifi_item_label">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Body1</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/theme_white</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">8.0dip</item>
+    </style>
+
+    <style name="wifi_item_content">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+        <item name="android:textColor">@color/theme_white</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
 
 </resources>

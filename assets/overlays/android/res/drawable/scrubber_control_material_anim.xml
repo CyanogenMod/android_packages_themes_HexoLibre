@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+    <item android:state_enabled="false" android:state_pressed="true">
+        <bitmap android:src="@drawable/scrubber_control_off_mtrl_alpha" android:gravity="center" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/scrubber_control_off_mtrl_alpha" android:gravity="center" />
+    </item>
+    <item android:state_pressed="true" android:id="@+id/pressed">
+        <bitmap android:src="@drawable/scrubber_control_pressed_mtrl" android:gravity="center" />
+    </item>
+    <item android:id="@+id/not_pressed">
+        <bitmap android:src="@drawable/scrubber_control_pressed_mtrl" android:gravity="center" />
+    </item>
+    <transition android:fromId="@+id/not_pressed" android:toId="@+id/pressed">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/scrubber_control_pressed_mtrl" android:gravity="center" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:fromId="@+id/pressed" android:toId="@+id/not_pressed">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/scrubber_control_pressed_mtrl" android:gravity="center" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

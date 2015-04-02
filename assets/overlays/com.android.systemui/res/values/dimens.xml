@@ -4,4 +4,6 @@
     <!-- radius of the corners of the material rounded rect background -->
     <dimen name="notification_material_rounded_rect_radius">0dp</dimen>
 
+    <dimen name="status_bar_expanded_header_elevation">0dp</dimen>
+
 </resources>

@@ -8,30 +8,30 @@
     <color name="transparent">@*common:color/theme_transparent</color>
 
     <!-- User icon colors -->
-    <color name="user_icon_1">#FFffd200</color>
-    <color name="user_icon_2">@color/theme_accent</color>
-    <color name="user_icon_3">@color/theme_accent</color>
-    <color name="user_icon_4">@color/theme_accent</color>
-    <color name="user_icon_5">@color/theme_accent</color>
-    <color name="user_icon_6">@color/theme_accent</color>
-    <color name="user_icon_7">@color/theme_accent</color>
-    <color name="user_icon_8">@color/theme_accent</color>
+    <color name="user_icon_1">@*common:color/theme_primary</color>
+    <color name="user_icon_2">@*common:color/theme_primary</color>
+    <color name="user_icon_3">@*common:color/theme_primary</color>
+    <color name="user_icon_4">@*common:color/theme_primary</color>
+    <color name="user_icon_5">@*common:color/theme_primary</color>
+    <color name="user_icon_6">@*common:color/theme_primary</color>
+    <color name="user_icon_7">@*common:color/theme_primary</color>
+    <color name="user_icon_8">@*common:color/theme_primary</color>
 
     <!-- Primary & accent colors -->
-    <color name="material_deep_teal_200">@color/theme_accent</color>
-    <color name="material_deep_teal_500">@color/theme_accent</color>
-    <color name="material_blue_grey_800">@color/theme_dark</color>
-    <color name="material_blue_grey_900">@color/theme_dark</color>
-    <color name="material_blue_grey_950">@color/theme_dark</color>
+    <color name="material_deep_teal_200">@*common:color/theme_primary</color>
+    <color name="material_deep_teal_500">@*common:color/theme_primary</color>
+    <color name="material_blue_grey_800">@*common:color/theme_dark</color>
+    <color name="material_blue_grey_900">@*common:color/theme_dark</color>
+    <color name="material_blue_grey_950">@*common:color/theme_dark</color>
 
-    <color name="background_material_dark">@color/theme_dark</color>
+    <color name="background_material_dark">@*common:color/theme_dark</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <color name="background_floating_material_dark">@color/theme_dark</color>
+    <color name="background_floating_material_dark">@*common:color/theme_dark</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
 
-    <color name="primary_material_dark">@color/theme_dark</color>
+    <color name="primary_material_dark">@*common:color/theme_dark</color>
     <color name="primary_material_light">#ffbdbdbd</color>
-    <color name="primary_dark_material_dark">@color/theme_black</color>
+    <color name="primary_dark_material_dark">@*common:color/theme_black</color>
     <color name="primary_dark_material_light">#ff757575</color>
 
     <color name="ripple_material_dark">#8000b1e5</color>
@@ -44,13 +44,13 @@
     <color name="button_material_dark">#ff282930</color>
     <color name="button_material_light">#ffd6d7d7</color>
 
-    <color name="switch_thumb_normal_material_dark">#ff282930</color>
+    <color name="switch_thumb_normal_material_dark">#ff4e7d90</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
 
-    <color name="bright_foreground_material_dark">@color/theme_white</color>
-    <color name="bright_foreground_material_light">@color/theme_dark</color>
+    <color name="bright_foreground_material_dark">@*common:color/theme_white</color>
+    <color name="bright_foreground_material_light">@*common:color/theme_dark</color>
     <!-- White 50% -->
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <!-- Black 50% -->
@@ -67,7 +67,7 @@
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
 
-    <color name="notification_action_color_filter">@color/theme_white</color>
+    <color name="notification_action_color_filter">@*common:color/theme_white</color>
     <drawable name="notification_template_icon_bg">#3300b1e5</drawable>
     <drawable name="notification_template_diviver">#00000000</drawable>
     <color name="notification_media_primary_color">@color/primary_text_default_material_dark</color>
@@ -97,7 +97,7 @@
     <!-- Time picker defaults when no theme is set -->
 
     <color name="timepicker_default_background_material">@color/primary_text_default_material_light</color>
-    <color name="timepicker_default_text_color_material">@color/theme_black</color>
+    <color name="timepicker_default_text_color_material">@*common:color/theme_black</color>
     <color name="timepicker_default_ampm_selected_background_color_material">@color/material_deep_teal_200</color>
     <color name="timepicker_default_ampm_unselected_background_color_material">@color/transparent</color>
     <color name="timepicker_default_selector_color_material">@color/material_deep_teal_200</color>
@@ -105,23 +105,23 @@
 
     <!-- DatePicker colors -->
 
-    <color name="datepicker_default_header_selector_background_material_light">@color/theme_white</color>
-    <color name="datepicker_default_header_selector_background_material_dark">@color/theme_dark</color>
+    <color name="datepicker_default_header_selector_background_material_light">@*common:color/theme_white</color>
+    <color name="datepicker_default_header_selector_background_material_dark">@*common:color/theme_dark</color>
 
     <color name="datepicker_default_header_dayofweek_background_color_material_light">#999999</color>
-    <color name="datepicker_default_header_dayofweek_background_color_material_dark">@color/theme_white</color>
+    <color name="datepicker_default_header_dayofweek_background_color_material_dark">@*common:color/theme_white</color>
 
     <color name="datepicker_default_normal_text_color_material_light">#ff999999</color>
-    <color name="datepicker_default_normal_text_color_material_dark">@color/theme_white</color>
+    <color name="datepicker_default_normal_text_color_material_dark">@*common:color/theme_white</color>
 
     <color name="datepicker_default_disabled_text_color_material_light">#80999999</color>
     <color name="datepicker_default_disabled_text_color_material_dark">#80999999</color>
 
-    <color name="datepicker_default_selected_text_color_material_light">@color/theme_accent</color>
-    <color name="datepicker_default_selected_text_color_material_dark">@color/theme_accent</color>
+    <color name="datepicker_default_selected_text_color_material_light">@*common:color/theme_primary</color>
+    <color name="datepicker_default_selected_text_color_material_dark">@*common:color/theme_primary</color>
 
-    <color name="datepicker_default_pressed_text_color_material_light">@color/theme_accent</color>
-    <color name="datepicker_default_pressed_text_color_material_dark">@color/theme_accent</color>
+    <color name="datepicker_default_pressed_text_color_material_light">@*common:color/theme_primary</color>
+    <color name="datepicker_default_pressed_text_color_material_dark">@*common:color/theme_primary</color>
 
     <color name="datepicker_default_circle_background_color_material_light">@color/material_deep_teal_500</color>
     <color name="datepicker_default_circle_background_color_material_dark">@color/material_deep_teal_200</color>
