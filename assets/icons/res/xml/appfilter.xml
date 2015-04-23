@@ -2,10 +2,11 @@
 <resources>
 
     <!-- ================================================== -->
-    <!-- MASKING (BACKPLATE, OVERLAY, MASK, SCALE)          -->
+    <!-- ICON COMPOSING FOR NON-THEMED APPS                 -->
+    <!-- (BACKPLATE, PALETTE, OVERLAY, MASK, SCALE)         -->
     <!-- ================================================== -->
 
-    <iconback img1="folder_01" img2="folder_02" img3="folder_03" img4="folder_04" img5="folder_05" img6="folder_06" img7="folder_07"/>
+    <iconback img1="folder_01" img2="folder_02" img3="folder_03" img4="folder_04" img5="folder_05" img6="folder_06" />
     <!-- <iconupon img="iconupon"/> -->
     <!-- <iconmask img="iconmask"/> -->
     <scale factor=".75"/>
@@ -26,7 +27,6 @@
     <item component="ComponentInfo{com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity}" drawable="cyngn_music"/>
     <item component="ComponentInfo{com.cyngn.maxxaudio/com.cyngn.maxxaudio.activity.ActivityMusic}" drawable="system_dspmanager"/>
     <item component="ComponentInfo{com.cyngn.themestore/com.cyngn.themestore.ui.StoreActivity}" drawable="cyngn_themes"/>
-    <item component="ComponentInfo{}" drawable=""/>
 
     <!-- ================================================== -->
     <!-- GOOGLE APPS                                        -->
@@ -64,6 +64,10 @@
     <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="google_wallet"/>
     <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.ConversationListActivity}" drawable="google_photos"/>
     <item component="ComponentInfo{com.google.android.apps.chromecast.app/.DiscoveryActivity}" drawable="google_chromecast"/>
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="google_keep"/>
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_docs"/>
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_sheets"/>
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_slides"/>
 -->
     <!-- ================================================== -->
     <!-- SYSTEM                                             -->
@@ -241,7 +245,7 @@
     <!-- AMBIENT                                            -->
     <!-- ================================================== -->
     <item component="ComponentInfo{com.boxer.email/com.boxer.email.activity.Welcome}" drawable="cyngn_email"/>
-
+    <item component="ComponentInfo{com.nextbit.app/com.nextbit.app.deathstar.MainActivity}" drawable="apps_baton"/>
 
     <!-- ================================================== -->
     <!-- THIRD PARTY APPS -->
@@ -382,8 +386,6 @@
     <item component="ComponentInfo{com.rovio.angrybirds/com.rovio.ka3d.App}" drawable="games_angrybirds"/>
     <item component="ComponentInfo{com.zynga.words/com.zynga.words.ui.launch.WordsMainActivity}" drawable="games_wordswithfriends"/>
     <item component="ComponentInfo{com.halfbrick.fruitninja/cn.emagsoftware.autopackagebilling.GameInitialization}" drawable="games_fruitninja"/>
-    <item component="ComponentInfo{com.halfbrick.fruitninja/com.halfbrick.fruitninja.Applanet_2}" drawable="games_fruitninja"/>
-    <item component="ComponentInfo{com.halfbrick.fruitninja/com.halfbrick.fruitninja.ApplanetActivity}" drawable="games_fruitninja"/>
     <item component="ComponentInfo{com.halfbrick.fruitninja/com.halfbrick.fruitninja.FruitNinjaActivity}" drawable="games_fruitninja"/>
     <item component="ComponentInfo{com.halfbrick.fruitninja/com.strastar.game.SKTARMLauncher}" drawable="games_fruitninja"/>
     <item component="ComponentInfo{com.halfbrick.fruitninjafree/com.halfbrick.fruitninja.FruitNinjaActivity}" drawable="games_fruitninja"/>
