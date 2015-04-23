@@ -44,7 +44,7 @@
     <color name="button_material_dark">#ff282930</color>
     <color name="button_material_light">#ffd6d7d7</color>
 
-    <color name="switch_thumb_normal_material_dark">#ff4e7d90</color>
+    <color name="switch_thumb_normal_material_dark">#ff0d6f8c</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>

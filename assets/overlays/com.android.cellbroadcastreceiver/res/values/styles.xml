@@ -7,6 +7,7 @@
         <item name="android:statusBarColor">#FF000000</item>
         <item name="android:textColorPrimary">@*common:color/theme_white</item>
         <item name="android:textColorSecondary">@*common:color/theme_white</item>
+        <item name="android:colorEdgeEffect">#8000b1e5</item>
     </style>
 
     <style name="Cyngn.AppBar" parent="@android:style/Widget.Material.ActionBar">

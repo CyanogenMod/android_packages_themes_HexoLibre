@@ -25,6 +25,7 @@
     <color name="title_color">@*common:color/theme_primary</color>
     <color name="text_color_black">@*common:color/theme_white</color>
     <color name="text_color_darker_gray">@*common:color/theme_white</color>
+    <color name="regulatory_text_color">@*common:color/theme_white</color>
 
     <!-- QS Tile Re-arrange Screen -->
     <color name="qs_tile_default_background_color">#FFFFFFFF</color>
@@ -41,5 +42,9 @@
     <!-- Owner Info Background -->
     <color name="background_color_white">@*common:color/theme_dark</color>
 
-
+    <!-- Colors for Sliding Tabs -->
+    <color name="slidingtabs_background_color">@*common:color/theme_dark</color>
+    <color name="slidingtabs_text_color">@*common:color/theme_white</color>
+    <color name="slidingtabs_divider_color">@android:color/transparent</color>
+    <color name="slidingtabs_indicator_color">@*common:color/theme_primary</color>
 </resources>
