@@ -10,6 +10,13 @@
     <!-- <iconupon img="iconupon"/> -->
     <!-- <iconmask img="iconmask"/> -->
     <scale factor=".75"/>
+    <paletteback
+        img="folder_07"
+        swatchType="vibrant"
+        defaultSwatchColor1="#00B1E5"
+        defaultSwatchColor2="#37474f"
+        defaultSwatchColor3="#424242"
+    />
 
     <!-- ================================================== -->
     <!-- CYNGN                                              -->
