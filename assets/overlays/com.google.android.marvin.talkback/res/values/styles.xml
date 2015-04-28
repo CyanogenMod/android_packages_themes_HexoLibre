@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TalkBackSettings" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:statusBarColor">#FF000000</item>
+        <item name="android:colorEdgeEffect">#8000b1e5</item>
+    </style>
+
+</resources>

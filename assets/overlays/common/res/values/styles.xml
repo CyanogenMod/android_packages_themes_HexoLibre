@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Cyngn.AppBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@*common:color/theme_black</item>
+    </style>
+
+    <style name="Cyngn.AppBar.Theme" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:textColorPrimary">@*common:color/theme_white</item>
+        <item name="android:background">@*common:color/theme_black</item>
+    </style>
+
+</resources>

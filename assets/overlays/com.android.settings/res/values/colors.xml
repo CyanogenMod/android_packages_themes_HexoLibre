@@ -42,6 +42,10 @@
     <!-- Owner Info Background -->
     <color name="background_color_white">@*common:color/theme_dark</color>
 
+    <!-- Expanded Desktop -->
+    <drawable name="expanded_item_bg_activated">@*common:color/theme_dark</drawable>
+    <drawable name="expanded_item_bg">@*common:color/theme_dark</drawable>
+
     <!-- Colors for Sliding Tabs -->
     <color name="slidingtabs_background_color">@*common:color/theme_black</color>
     <color name="slidingtabs_text_color">@*common:color/theme_white</color>
