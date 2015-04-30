@@ -2,10 +2,10 @@
 <resources>
 
     <style name="NotificationPrimaryText">
-        <item name="android:textColor">@*common:color/theme_white</item>
+        <item name="android:textColor">#FFFFFFFF</item>
     </style>
     <style name="NotificationSecondaryText">
-        <item name="android:textColor">@*common:color/theme_white</item>
+        <item name="android:textColor">#FFFFFFFF</item>
     </style>
 
 </resources>
