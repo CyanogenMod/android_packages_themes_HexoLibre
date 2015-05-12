@@ -15,8 +15,7 @@
         swatchType="vibrant"
         defaultSwatchColor1="#00B1E5"
         defaultSwatchColor2="#37474f"
-        defaultSwatchColor3="#424242"
-    />
+        defaultSwatchColor3="#424242" />
 
     <!-- ================================================== -->
     <!-- CYNGN                                              -->
@@ -24,7 +23,7 @@
 
     <item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraLauncher}" drawable="cyngn_camera"/>
     <item component="ComponentInfo{com.cyanogenmod.gallerynext/com.cyanogenmod.gallerynext.app.GalleryActivity}" drawable="cyngn_gallery"/>
-    <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="system_dspmanager"/>
+    <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="cyngn_audiofx"/>
     <item component="ComponentInfo{com.cyanogenmod.screencast/com.cyanogenmod.screencast.MainActivity}" drawable="cyngn_cast"/>
     <item component="ComponentInfo{com.cyngn.screencast/com.cyngn.screencast.MainActivity}" drawable="cyngn_cast"/>
     <item component="ComponentInfo{com.cyngn.gallerynext/com.cyngn.gallerynext.app.GalleryActivity}" drawable="cyngn_gallery"/>
@@ -32,7 +31,8 @@
     <item component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}" drawable="system_filemanager"/>
     <item component="ComponentInfo{com.cyngn.theme.chooser/com.cyngn.theme.chooser.ChooserActivity}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity}" drawable="cyngn_music"/>
-    <item component="ComponentInfo{com.cyngn.maxxaudio/com.cyngn.maxxaudio.activity.ActivityMusic}" drawable="system_dspmanager"/>
+    <item component="ComponentInfo{com.cyngn.maxxaudio/com.cyngn.maxxaudio.activity.ActivityMusic}" drawable="cyngn_audiofx"/>
+    <item component="ComponentInfo{com.cyngn.audiofx/com.cyngn.audiofx.activity.ActivityMusic}" drawable="cyngn_audiofx"/>
     <item component="ComponentInfo{com.cyngn.themestore/com.cyngn.themestore.ui.StoreActivity}" drawable="cyngn_themes"/>
 
     <!-- ================================================== -->
@@ -266,7 +266,6 @@
     <item component="ComponentInfo{com.andrew.apollo/com.andrew.apollo.ui.activities.SearchActivity}" drawable="apps_apollo"/>
     <item component="ComponentInfo{com.andrew.apollo/com.andrew.apollo.ui.activities.ShortcutActivity}" drawable="apps_apollo"/>
     <item component="ComponentInfo{com.archetyping.downtown/com.archetyping.downtown.view.FirstLoadActivity}" drawable="apps_dribbble"/>
-    <item component="ComponentInfo{com.bel.android.dspmanager/com.bel.android.dspmanager.activity.DSPManager}" drawable="systema_dspmanager"/>
     <item component="ComponentInfo{com.cloudmagic.mail/com.cloudmagic.android.HomeScreenActivity}" drawable="apps_cloudmagic"/>
     <item component="ComponentInfo{com.colinmcdonough.android.torch/com.colinmcdonough.android.torch.Torch}" drawable="system_torch"/>
     <item component="ComponentInfo{com.delta.mobile.android/com.delta.mobile.android.SplashScreen}" drawable="apps_flydelta"/>
