@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="theme_primary">@*common:color/theme_primary</color>
     <color name="theme_accent">@*common:color/theme_primary</color>
     <color name="theme_dark">@*common:color/theme_dark</color>
     <color name="theme_white">@*common:color/theme_white</color>
@@ -45,9 +46,9 @@
     <color name="button_material_light">#ffd6d7d7</color>
 
     <color name="switch_thumb_normal_material_dark">#ff0d6f8c</color>
-    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
-    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#ff0d6f8c</color>
+    <color name="switch_thumb_disabled_material_dark">#ff09495c</color>
+    <color name="switch_thumb_disabled_material_light">#ff09495c</color>
 
     <color name="bright_foreground_material_dark">@*common:color/theme_white</color>
     <color name="bright_foreground_material_light">@*common:color/theme_dark</color>
@@ -68,12 +69,16 @@
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
 
     <color name="notification_action_color_filter">@*common:color/theme_white</color>
-    <drawable name="notification_template_icon_bg">#3300b1e5</drawable>
-    <drawable name="notification_template_diviver">#00000000</drawable>
     <color name="notification_media_primary_color">@color/primary_text_default_material_dark</color>
     <color name="notification_media_secondary_color">@color/primary_text_default_material_dark</color>
     <color name="notification_mtrl_big_picture_bg">#CC000000</color>
     <color name="notification_mtrl_action_textcolor">@*common:color/theme_white</color>
+
+    <drawable name="notification_template_icon_bg">@*common:color/theme_primary</drawable>
+    <drawable name="notification_template_divider">#00000000</drawable>
+
+    <color name="notification_icon_bg_color">@*common:color/theme_primary</color>
+    <color name="system_notification_accent_color">#FF00b1e5</color>
 
     <!-- TODO: This is 40% alpha on the default accent color. -->
     <color name="highlighted_text_material_dark">#6600b1e5</color>

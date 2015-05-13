@@ -51,4 +51,10 @@
     <color name="slidingtabs_text_color">@*common:color/theme_white</color>
     <color name="slidingtabs_divider_color">@android:color/transparent</color>
     <color name="slidingtabs_indicator_color">@*common:color/theme_primary</color>
+
+    <!-- Multi-sim Color Picker Text Color -->
+    <color name="msim_color_picker_text_color">@*common:color/theme_white</color>
+
+    <!-- Multi-sim Edit Name Test Color -->
+    <color name="msim_edit_name_text_color">@*common:color/theme_white</color>
 </resources>
