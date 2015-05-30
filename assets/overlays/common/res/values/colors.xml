@@ -8,5 +8,6 @@
     <color name="theme_white">#FFf3f3f3</color>
     <color name="theme_black">#FF0b0b0b</color>
     <color name="theme_transparent">#00000000</color>
+    <color name="theme_edge">#6600b1e5</color>
 
 </resources>

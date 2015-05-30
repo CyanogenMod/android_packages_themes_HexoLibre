@@ -16,13 +16,9 @@
     </style>
 
     <style name="Theme.Settings" parent="@android:style/Theme.Material">
-        <item name="android:actionBarStyle">@style/Theme.AppBar</item>
+        <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:statusBarColor">#FF000000</item>
         <item name="android:colorEdgeEffect">#8000b1e5</item>
-    </style>
-
-    <style name="Theme.AppBar" parent="@android:style/Widget.Material.Light.ActionBar">
-        <item name="android:background">@*common:color/theme_black</item>
     </style>
 
 </resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="notification_accent_color">@*common:color/theme_primary</color>
+    <color name="sliding_key_input_preview_color_lxx_dark">#b300b1e5</color>
+    <color name="sliding_key_input_preview_color_lxx_light">#b300b1e5</color>
+    <color name="highlight_color_lxx_dark">#ff00b1e5</color>
+    <color name="highlight_color_lxx_light">#ff00b1e5</color>
+    <color name="gesture_trail_color_lxx_light">#ff00b1e5</color>
+    <color name="gesture_trail_color_lxx_dark">#ff00b1e5</color>
+
+    <color name="key_functional_text_color_lxx_light">#cc37474f</color>
+    <color name="key_text_inactive_color_lxx_light">#b337474f</color>
+    <color name="key_hint_letter_color_lxx_light">#b337474f</color>
+    <color name="language_on_spacebar_text_color_lxx_light">#b337474f</color>
+    <color name="auto_correct_color_lxx_light">#ff37474f</color>
+    <color name="typed_word_color_lxx_light">#d937474f</color>
+    <color name="suggested_word_color_lxx_light">#b337474f</color>
+    <color name="key_background_lxx_light">#ffeceff1</color>
+    <color name="key_background_pressed_lxx_light">#2637474f</color>
+    <color name="suggested_word_background_selected_lxx_light">#2637474f</color>
+    <color name="gesture_floating_preview_color_lxx_light">#e6eceff1</color>
+    <color name="emoji_tab_page_indicator_background_lxx_light">#ffe4e7e9</color>
+    <color name="key_text_color_lxx_dark">#ccffffff</color>
+    <color name="key_functional_text_color_lxx_dark">#ccffffff</color>
+    <color name="key_text_inactive_color_lxx_dark">#80ffffff</color>
+    <color name="key_hint_letter_color_lxx_dark">#80ffffff</color>
+    <color name="language_on_spacebar_text_color_lxx_dark">#b3ffffff</color>
+    <color name="auto_correct_color_lxx_dark">#ffffffff</color>
+    <color name="typed_word_color_lxx_dark">#d9ffffff</color>
+    <color name="suggested_word_color_lxx_dark">#b3ffffff</color>
+    <color name="key_background_lxx_dark">#ff263238</color>
+    <color name="key_background_pressed_lxx_dark">#19ffffff</color>
+    <color name="suggested_word_background_selected_lxx_dark">#19ffffff</color>
+    <color name="gesture_floating_preview_color_lxx_dark">#e621272b</color>
+    <color name="emoji_tab_page_indicator_background_lxx_dark">#ff21272b</color>
+    <color name="text_decorator_add_to_dictionary_indicator_text_highlight_color">#ffd1e7b7</color>
+    <color name="text_decorator_add_to_dictionary_indicator_background_color">#ff4eb848</color>
+    <color name="text_decorator_add_to_dictionary_indicator_foreground_color">#ffffffff</color>
+
+</resources>

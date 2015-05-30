@@ -2,16 +2,12 @@
 <resources>
 
     <style name="CellBroadcastSettingsTheme" parent="@android:style/Theme.Material">
-        <item name="android:actionBarStyle">@style/Cyngn.AppBar</item>
+        <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:colorBackground">@*common:color/theme_dark</item>
         <item name="android:statusBarColor">#FF000000</item>
         <item name="android:textColorPrimary">@*common:color/theme_white</item>
         <item name="android:textColorSecondary">@*common:color/theme_white</item>
-        <item name="android:colorEdgeEffect">#8000b1e5</item>
-    </style>
-
-    <style name="Cyngn.AppBar" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">@*common:color/theme_black</item>
+        <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
     </style>
 
 </resources>

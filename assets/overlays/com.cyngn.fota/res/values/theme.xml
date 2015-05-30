@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FotaButton" parent="@android:style/Widget.Material.Button" />
+    <style name="FotaTheme" parent="@android:style/Theme.Material.NoActionBar" />
+    <color name="FotaTitleColor">@*common:color/theme_primary</color>
+    <style name="FotaBuildNameTextColor">@*common:color/theme_primary</style>
+
+</resources>

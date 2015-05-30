@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="theme_primary">@*common:color/theme_primary</color>
+    <color name="theme_primary_dark">@*common:color/theme_primary_dark</color>
+    <color name="theme_accent">@*common:color/theme_primary</color>
+
+    <color name="highlight_color_lxx_light">@*common:color/theme_primary</color>
+    <color name="gesture_trail_color_lxx_light">@*common:color/theme_primary</color>
+    <color name="sliding_key_input_preview_color_lxx_light">@*common:color/theme_primary</color>
+    <color name="highlight_color_lxx_dark">@*common:color/theme_primary</color>
+    <color name="gesture_trail_color_lxx_dark">@*common:color/theme_primary</color>
+    <color name="sliding_key_input_preview_color_lxx_dark">@*common:color/theme_primary</color>
+    <color name="setup_text_action">@*common:color/theme_primary</color>
+    <color name="notification_accent_color">@*common:color/theme_primary</color>
+
+</resources>
