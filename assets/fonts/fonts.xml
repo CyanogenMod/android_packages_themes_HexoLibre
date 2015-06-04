@@ -2,12 +2,12 @@
 <familyset version="22">
     <!-- first font is default -->
     <family name="sans-serif">
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+        <font weight="400" style="italic">Lato-Italic.ttf</font>
         <font weight="100" style="normal">Lato-Thin.ttf</font>
         <font weight="100" style="italic">Lato-ThinItalic.ttf</font>
         <font weight="300" style="normal">Lato-Light.ttf</font>
         <font weight="300" style="italic">Lato-LightItalic.ttf</font>
-        <font weight="400" style="normal">Lato-Regular.ttf</font>
-        <font weight="400" style="italic">Lato-Italic.ttf</font>
         <font weight="500" style="normal">Lato-Medium.ttf</font>
         <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
         <font weight="900" style="normal">Lato-Black.ttf</font>
