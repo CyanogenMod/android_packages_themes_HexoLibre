@@ -3,7 +3,7 @@
     <style name="platformSettingsTheme" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:actionBarWidgetTheme">@null</item>
-        <item name="android:statusBarColor">@*android:color/black</item>
+        <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
         <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
         <item name="android:colorPrimary">@color/theme_primary</item>
         <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>

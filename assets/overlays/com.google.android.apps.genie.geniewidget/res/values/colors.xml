@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="notification_story_title_color">@*common:color/theme_primary</color>
+    <color name="notification_source_color">#ffa2a2a2</color>
+
+</resources>

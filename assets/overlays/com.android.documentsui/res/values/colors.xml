@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Background of main view -->
+    <color name="material_grey_50">@*common:color/theme_dark</color>
+
+    <color name="material_grey_300">#ffeeeeee</color>
+
+    <!-- Background of the grid squares -->
+    <color name="item_doc_grid_background">#ff000000</color>
+
+    <color name="item_doc_grid_protect_background">#88000000</color>
+    <color name="item_doc_grid_overlay_activated">#88000000</color>
+    <color name="item_doc_grid_overlay_disabled">#00ffffff</color>
+    <color name="font_color_doc_grid">#ffffffff</color>
+
+    <color name="item_doc_list_overlay_disabled">#88ffffff</color>
+    <color name="item_doc_list_background_activated">#1a00B1E5</color>
+
+    <!-- Nav drawer -->
+    <color name="drawer_background_color">@*common:color/theme_dark</color>
+
+</resources>

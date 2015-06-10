@@ -17,8 +17,8 @@
 
     <style name="Theme.Settings" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
-        <item name="android:statusBarColor">#FF000000</item>
-        <item name="android:colorEdgeEffect">#8000b1e5</item>
+        <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
+        <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
     </style>
 
 </resources>

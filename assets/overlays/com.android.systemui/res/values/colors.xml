@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="theme_dark">@*common:color/theme_dark</color>
     <color name="theme_accent">@*common:color/theme_primary</color>
     <color name="theme_black">@*common:color/theme_black</color>
@@ -16,25 +17,47 @@
     <color name="qs_detail_transition">#66FFFFFF</color>
     <color name="qs_subhead">#9900b1e5</color>
 
+    <!-- The color of the material notification background -->
     <color name="notification_material_background_color">@*common:color/theme_dark</color>
+
+    <!-- The color of the material notification background when dimmed -->
     <color name="notification_material_background_dimmed_color">@*common:color/theme_dark</color>
+
+    <!-- The color of the material notification background when low priority -->
     <color name="notification_material_background_low_priority_color">@*common:color/theme_dark</color>
+
+    <!-- The color of the material notification background for media notifications -->
     <color name="notification_material_background_media_default_color">@*common:color/theme_dark</color>
+
+    <!-- The color of the legacy notification background -->
     <color name="notification_legacy_background_color">@*common:color/theme_dark</color>
 
     <color name="notification_ripple_untinted_color">#8000b1e5</color>
     <color name="notification_ripple_color_low_priority">#4800b1e5</color>
     <color name="notification_ripple_tinted_color">#8000b1e5</color>
 
+    <!-- The "inside" of a notification, reached via longpress -->
     <color name="notification_guts_bg_color">@*common:color/theme_dark</color>
     <color name="notification_guts_title_color">@*common:color/theme_black</color>
     <color name="notification_guts_text_color">@*common:color/theme_black</color>
     <color name="notification_guts_btn_color">@*common:color/theme_black</color>
 
+    <!-- Nav Bar Ripple Color -->
     <color name="navbutton_ripple_color">@*common:color/theme_primary</color>
 
     <!-- QS Tile Data Usage Graph -->
     <color name="data_usage_secondary">#99FFFFFF</color><!-- 60% white -->
     <color name="data_usage_graph_track">#33FFFFFF</color><!-- 20% white -->
     <color name="data_usage_graph_warning">@*common:color/theme_highlighter</color>
+
+    <!-- Expanded Status Bar Weather Text Colors -->
+    <color name="status_bar_temperature_text_color">@*common:color/theme_primary</color>
+    <color name="status_bar_temperature_location_text_color">@*common:color/theme_primary</color>
+
+    <!-- Volume Panel Zen Mode Icon Tint -->
+    <color name="segmented_button_selected">#FFFFFFFF</color>
+    <color name="segmented_button_unselected">#B3B0BEC5</color>
+
+    <color name="volume_panel_divider">#1FFFFFFF</color>
+
 </resources>

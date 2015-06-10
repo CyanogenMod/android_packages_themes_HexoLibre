@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Theme Colors -->
     <color name="theme_primary">#FF00b1e5</color>
     <color name="theme_primary_dark">#FF007da2</color>
     <color name="theme_highlighter">#FFf5a331</color>
@@ -9,5 +10,10 @@
     <color name="theme_black">#FF0b0b0b</color>
     <color name="theme_transparent">#00000000</color>
     <color name="theme_edge">#6600b1e5</color>
+
+    <!-- Style Assignments to Theme Colors -->
+    <color name="theme_appbar">@color/theme_black</color>
+    <color name="theme_statusbar">#FF000000</color>
+    <color name="theme_background">@color/theme_dark</color>
 
 </resources>

@@ -4,7 +4,7 @@
     <style name="DeskClockParentTheme" parent="@android:style/Theme.Material">
         <item name="android:statusBarColor">@color/status_bar</item>
         <item name="android:colorAccent">@*common:color/theme_primary</item>
-        <item name="android:colorControlNormal">#FF0d6f8c</item>
+        <item name="android:colorControlNormal">@*android:color/switch_thumb_normal_material_dark</item>
         <item name="android:colorControlActivated">@color/hot_pink</item>
         <item name="android:popupMenuStyle">?android:attr/actionOverflowMenuStyle</item>
         <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
@@ -24,7 +24,7 @@
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:colorBackground">@*common:color/theme_dark</item>
         <item name="android:colorAccent">@*common:color/theme_primary</item>
-        <item name="android:colorControlNormal">#FF0d6f8c</item>
+        <item name="android:colorControlNormal">@*android:color/switch_thumb_normal_material_dark</item>
         <item name="android:colorControlActivated">@color/hot_pink</item>
         <item name="android:textColor">@*common:color/theme_white</item>
         <item name="android:textColorSecondary">@*common:color/theme_white</item>
@@ -33,7 +33,7 @@
     </style>
 
     <style name="AlarmSwitchTheme">
-        <item name="android:colorControlNormal">#FF0d6f8c</item>
+        <item name="android:colorControlNormal">@*android:color/switch_thumb_normal_material_dark</item>
         <item name="android:colorControlActivated">@color/hot_pink</item>
     </style>
 
