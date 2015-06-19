@@ -253,6 +253,7 @@
     <!-- AMBIENT                                            -->
     <!-- ================================================== -->
     <item component="ComponentInfo{com.boxer.email/com.boxer.email.activity.Welcome}" drawable="cyngn_email"/>
+    <item component="ComponentInfo{com.boxer.calendar/com.android.calendar.AllInOneActivity}" drawable="cyngn_calendar"/>
     <item component="ComponentInfo{com.nextbit.app/com.nextbit.app.deathstar.MainActivity}" drawable="apps_baton"/>
 
     <!-- ================================================== -->
