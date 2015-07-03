@@ -15,6 +15,7 @@
     <color name="qs_tile_text">@*common:color/theme_primary</color>
     <color name="qs_tile_divider">#00ffffff</color>
     <color name="qs_detail_transition">#66FFFFFF</color>
+    <color name="qs_detail_progress_track">@*common:color/theme_primary</color>
     <color name="qs_subhead">#9900b1e5</color>
 
     <!-- The color of the material notification background -->

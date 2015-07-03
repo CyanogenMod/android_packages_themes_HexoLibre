@@ -35,6 +35,7 @@
     <item component="ComponentInfo{com.cyngn.maxxaudio/com.cyngn.maxxaudio.activity.ActivityMusic}" drawable="cyngn_audiofx"/>
     <item component="ComponentInfo{com.cyngn.audiofx/com.cyngn.audiofx.activity.ActivityMusic}" drawable="cyngn_audiofx"/>
     <item component="ComponentInfo{com.cyngn.themestore/com.cyngn.themestore.ui.StoreActivity}" drawable="cyngn_themes"/>
+    <item component="ComponentInfo{com.android.swe.browser/com.android.browser.BrowserLauncher}" drawable="cyngn_browser"/>
 
     <!-- ================================================== -->
     <!-- GOOGLE APPS                                        -->
@@ -71,6 +72,7 @@
     <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google_search"/>
     <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="google_wallet"/>
     <item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.ConversationListActivity}" drawable="google_photos"/>
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos"/>
     <item component="ComponentInfo{com.google.android.apps.chromecast.app/.DiscoveryActivity}" drawable="google_chromecast"/>
     <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="google_keep"/>
     <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_docs"/>
@@ -254,7 +256,6 @@
     <!-- ================================================== -->
     <item component="ComponentInfo{com.boxer.email/com.boxer.email.activity.Welcome}" drawable="cyngn_email"/>
     <item component="ComponentInfo{com.boxer.calendar/com.android.calendar.AllInOneActivity}" drawable="cyngn_calendar"/>
-    <item component="ComponentInfo{com.nextbit.app/com.nextbit.app.deathstar.MainActivity}" drawable="apps_baton"/>
 
     <!-- ================================================== -->
     <!-- THIRD PARTY APPS -->
