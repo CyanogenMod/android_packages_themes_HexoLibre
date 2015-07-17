@@ -2,14 +2,19 @@
 <resources>
 
     <!-- Theme Colors -->
-    <color name="theme_primary">#FF00b1e5</color>
-    <color name="theme_primary_dark">#FF007da2</color>
+    <color name="theme_primary">@color/theme_hexo</color>
+    <color name="theme_primary_dark">@color/theme_hexo_dark</color>
     <color name="theme_highlighter">#FFf5a331</color>
     <color name="theme_dark">#FF1a1a1a</color>
     <color name="theme_white">#FFf3f3f3</color>
+    <color name="theme_white_dark">#FFd8d8d8</color>
     <color name="theme_black">#FF0b0b0b</color>
     <color name="theme_transparent">#00000000</color>
     <color name="theme_edge">#6600b1e5</color>
+
+    <!-- Hexo palette -->
+    <color name="theme_hexo">#FF00b1e5</color>
+    <color name="theme_hexo_dark">#FF007da2</color>
 
     <!-- Style Assignments to Theme Colors -->
     <color name="theme_appbar">@color/theme_black</color>

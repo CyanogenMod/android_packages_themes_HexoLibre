@@ -26,8 +26,8 @@
         <item name="android:colorAccent">@*common:color/theme_primary</item>
         <item name="android:colorControlNormal">@*android:color/switch_thumb_normal_material_dark</item>
         <item name="android:colorControlActivated">@color/hot_pink</item>
-        <item name="android:textColor">@*common:color/theme_white</item>
-        <item name="android:textColorSecondary">@*common:color/theme_white</item>
+        <item name="android:textColorPrimary">@*common:color/theme_white</item>
+        <item name="android:textColorSecondary">@*common:color/theme_white_dark</item>
         <item name="android:statusBarColor">#000</item>
         <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
     </style>

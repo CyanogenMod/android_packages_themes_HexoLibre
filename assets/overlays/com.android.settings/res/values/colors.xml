@@ -57,4 +57,13 @@
 
     <!-- Multi-sim Edit Name Test Color -->
     <color name="msim_edit_name_text_color">@*common:color/theme_white</color>
+
+    <!-- Fingerprint -->
+    <color name="manage_fingerprints_primary_color">@color/theme_accent</color>
+    <color name="manage_fingerprints_description_text_color">@*common:color/theme_white</color>
+    <color name="fingerprint_progress_normal_color">#a5a5a5</color>
+    <color name="fingerprint_progress_success_color">#00b315</color>
+    <color name="fingerprint_progress_error_color">#f44336</color>
+    <color name="fingerprint_enrollment_color_control_activated">#085ea3</color>
+
 </resources>
