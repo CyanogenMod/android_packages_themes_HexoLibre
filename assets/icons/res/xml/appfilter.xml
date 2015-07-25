@@ -35,7 +35,7 @@
     <item component="ComponentInfo{com.cyngn.maxxaudio/com.cyngn.maxxaudio.activity.ActivityMusic}" drawable="cyngn_audiofx"/>
     <item component="ComponentInfo{com.cyngn.audiofx/com.cyngn.audiofx.activity.ActivityMusic}" drawable="cyngn_audiofx"/>
     <item component="ComponentInfo{com.cyngn.themestore/com.cyngn.themestore.ui.StoreActivity}" drawable="cyngn_themes"/>
-    <item component="ComponentInfo{com.android.swe.browser/com.android.browser.BrowserLauncher}" drawable="cyngn_browser"/>
+    <item component="ComponentInfo{com.cyngn.browser/com.android.browser.BrowserLauncher}" drawable="cyngn_browser"/>
 
     <!-- ================================================== -->
     <!-- GOOGLE APPS                                        -->
