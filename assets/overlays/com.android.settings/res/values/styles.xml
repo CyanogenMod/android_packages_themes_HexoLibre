@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+    <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material">
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
         <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
+        <item name="android:textColorPrimary">@*common:color/theme_white</item>
+        <item name="android:textColorSecondary">@*common:color/theme_white_dark</item>
     </style>
 
     <style name="Theme.Settings" parent="@style/Theme.SettingsBase" />
@@ -50,6 +52,16 @@
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
         <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@*common:color/theme_white</item>
+    </style>
+
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">@*common:color/theme_white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
