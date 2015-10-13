@@ -79,4 +79,13 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:colorBackground">@*common:color/theme_background</item>
+        <item name="android:colorPrimary">@color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="android:colorAccent">@color/theme_primary</item>
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+    </style>
+
 </resources>
