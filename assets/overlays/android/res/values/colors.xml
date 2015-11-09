@@ -72,7 +72,7 @@
     <color name="notification_media_primary_color">@color/primary_text_default_material_dark</color>
     <color name="notification_media_secondary_color">@color/primary_text_default_material_dark</color>
     <color name="notification_mtrl_big_picture_bg">#CC000000</color>
-    <color name="notification_mtrl_action_textcolor">@*common:color/theme_white</color>
+    <color name="notification_mtrl_action_textcolor">#ffff3333</color>
 
     <drawable name="notification_template_icon_bg">@*common:color/theme_primary</drawable>
     <drawable name="notification_template_divider">#00000000</drawable>

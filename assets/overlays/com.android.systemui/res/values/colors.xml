@@ -48,7 +48,7 @@
 
     <!-- QS Tile Data Usage Graph -->
     <color name="data_usage_secondary">#99FFFFFF</color><!-- 60% white -->
-    <color name="data_usage_graph_track">#33FFFFFF</color><!-- 20% white -->
+    <color name="data_usage_graph_track">#33000000</color><!-- 20% white -->
     <color name="data_usage_graph_warning">@*common:color/theme_highlighter</color>
 
     <!-- Expanded Status Bar Weather Text Colors -->

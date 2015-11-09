@@ -59,4 +59,7 @@
     <color name="hour_22">@*common:color/theme_dark</color>
     <color name="hour_23">@*common:color/theme_dark</color>
 
+    <!--- Numpad color in timer tab -->
+    <color name="numpad_color">@*common:color/theme_primary</color>
+
 </resources>
