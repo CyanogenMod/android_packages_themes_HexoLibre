@@ -20,7 +20,7 @@
         <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
     </style>
 
-    <style name="SettingsTheme" parent="@*android:style/Theme.Material.Settings">
+    <style name="SettingsTheme" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:colorBackground">@*common:color/theme_dark</item>
         <item name="android:colorAccent">@*common:color/theme_primary</item>
