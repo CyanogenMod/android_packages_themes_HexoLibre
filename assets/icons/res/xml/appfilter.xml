@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (c) 2015 The CyanogenMod Project
+    Copyright (c) 2016 The CyanogenMod Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -56,7 +56,9 @@
     <item component="ComponentInfo{com.cyngn.theme.chooser}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{com.cyngn.themestore}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{com.cyngn.theme.previewgen}" drawable="cyngn_previewgen"/>
+    <item component="ComponentInfo{org.cyanogenmod.screencast}" drawable="cyngn_cast"/>
     <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="cyngn_themes"/>
+    <item component="ComponentInfo{org.cyanogenmod.snap}" drawable="cyngn_camera"/>
 
     <!-- ================================================== -->
     <!-- SYSTEM                                             -->
@@ -72,19 +74,20 @@
     <item component="ComponentInfo{com.android.deskclock}" drawable="system_clock"/>
     <item component="ComponentInfo{com.android.email}" drawable="system_email"/>
     <item component="ComponentInfo{com.android.gallery3d}" drawable="cyngn_gallery"/>
+    <item component="ComponentInfo{com.android.messaging}" drawable="cyngn_messaging"/>
     <item component="ComponentInfo{com.android.mms}" drawable="cyngn_messaging"/>
     <item component="ComponentInfo{com.android.music}" drawable="cyngn_music"/>
     <item component="ComponentInfo{com.android.phone}" drawable="system_phone"/>
     <item component="ComponentInfo{com.android.providers.downloads.ui}" drawable="system_downloads"/>
     <item component="ComponentInfo{com.android.quicksearchbox}" drawable="system_voicesearch"/>
     <item component="ComponentInfo{com.android.settings}" drawable="system_settings"/>
-    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings$WifiApSettingsActivity}" drawable="system_mobilehotspot"/>
     <item component="ComponentInfo{com.android.soundrecorder}" drawable="system_soundrecorder"/>
     <item component="ComponentInfo{com.android.videoeditor}" drawable="system_moviestudio"/>
     <item component="ComponentInfo{com.android.voicedialer}" drawable="system_voicedialer"/>
     <item component="ComponentInfo{com.android.stk}" drawable="system_simtoolkit"/>
     <item component="ComponentInfo{com.android.term}" drawable="apps_terminal"/>
     <item component="ComponentInfo{com.caf.fmradio}" drawable="system_fmradio"/>
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings$WifiApSettingsActivity}" drawable="system_mobilehotspot"/>
 
     <!-- ================================================== -->
     <!-- AMBIENT                                            -->
@@ -127,9 +130,8 @@
     <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_slides"/>
     <item component="ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.SplashActivity}" drawable="google_voice"/>
     <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="system_voicesearch"/>
-    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="google_android_pay"/>
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity}" drawable="google_wallet"/>
     <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="google_youtube"/>
-    <item component="ComponentInfo{com.google.android.apps.gmoney/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="google_wallet"/>
 
     <!-- ================================================== -->
     <!-- THIRD PARTY APPS -->
