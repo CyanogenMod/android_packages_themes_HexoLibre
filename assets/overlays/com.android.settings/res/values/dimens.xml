@@ -5,6 +5,10 @@
     <dimen name="dashboard_category_elevation">0dp</dimen>
 
     <!-- Dashboard image tile size -->
-    <dimen name="dashboard_tile_image_size">24dp</dimen>
+    <dimen name="dashboard_tile_image_size">20dp</dimen>
+
+    <!-- Dashboard tile image margin start / end -->
+    <dimen name="dashboard_tile_image_margin_start">24dp</dimen>
+    <dimen name="dashboard_tile_image_margin_end">32dp</dimen>
 
 </resources>

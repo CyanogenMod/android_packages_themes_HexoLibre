@@ -3,6 +3,7 @@
 
     <style name="Cyngn.AppBar" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:background">@*common:color/theme_black</item>
+        <item name="android:elevation">0dp</item>
     </style>
 
     <style name="Cyngn.AppBar.Theme" parent="@android:style/ThemeOverlay.Material.ActionBar">

@@ -5,7 +5,7 @@
     <color name="theme_primary">@*common:color/theme_primary</color>
     <color name="theme_primary_dark">@*common:color/theme_primary_dark</color>
     <color name="theme_highlighter">@*common:color/theme_highlighter</color>
-    <color name="theme_accent">@*common:color/theme_primary</color>
+    <color name="theme_accent">@*common:color/theme_white</color>
     <color name="theme_white">@*common:color/theme_white</color>
     <color name="theme_black">@*common:color/theme_black</color>
     <color name="theme_dark">@*common:color/theme_dark</color>
@@ -65,5 +65,12 @@
     <color name="fingerprint_progress_success_color">#00b315</color>
     <color name="fingerprint_progress_error_color">#f44336</color>
     <color name="fingerprint_enrollment_color_control_activated">#085ea3</color>
+
+    <!-- Tint for Google or other external icons in the dashboard -->
+    <color name="external_tile_icon_tint_color">@color/theme_accent</color>
+
+    <!-- Storage Summary Hard colors-->
+    <color name="storage_summary_text_color">@*common:color/theme_primary</color>
+    <color name="storage_summary_used_text_color">@*common:color/theme_white_dark</color>
 
 </resources>

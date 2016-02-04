@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (c) 2015 The CyanogenMod Project
+    Copyright (c) 2016 The CyanogenMod Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -16,13 +16,12 @@
 -->
 <resources>
 
-    <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material">
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Settings">
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
         <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
-        <item name="android:textColorPrimary">@*common:color/theme_white</item>
-        <item name="android:textColorSecondary">@*common:color/theme_white_dark</item>
+        <item name="android:listDivider">@*common:drawable/list_divider_cyngn</item>
     </style>
 
     <style name="Theme.ActionBar" parent="@*common:style/Cyngn.AppBar">
@@ -46,11 +45,11 @@
     </style>
 
     <style name="settingSeparator">
-        <item name="android:background">@*common:color/theme_background</item>
-        <item name="android:paddingTop">2.0dip</item>
-        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:background">@*common:color/theme_transparent</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_height">1dp</item>
     </style>
 
     <style name="wifi_item_label">
