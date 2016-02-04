@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- Copyright (C) 2015 Cyanogen, Inc.
+ Copyright (C) 2016 Cyanogen, Inc.
  -->
-<manifest android:versionCode="2000" android:versionName="2.0" package="com.cyngn.hexo"
+<manifest android:versionCode="2100" android:versionName="2.1" package="com.cyngn.hexo"
   xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-sdk android:targetSdkVersion="21" android:minSdkVersion="21" />
+    <uses-sdk android:targetSdkVersion="23" android:minSdkVersion="23" />
 
     <uses-feature android:name="org.cyanogenmod.theme.v1" />
 
