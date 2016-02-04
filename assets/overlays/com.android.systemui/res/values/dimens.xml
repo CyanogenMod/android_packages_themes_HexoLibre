@@ -6,4 +6,10 @@
 
     <dimen name="status_bar_expanded_header_elevation">0dp</dimen>
 
+    <!-- Side padding for the Quick Settings panel -->
+    <dimen name="qs_panel_side_padding">0dp</dimen>
+
+    <!-- Side padding for the expanded status bar header -->
+    <dimen name="notification_header_side_padding">0dp</dimen>
+
 </resources>
