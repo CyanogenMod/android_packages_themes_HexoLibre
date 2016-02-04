@@ -22,6 +22,9 @@
     <color name="notification_ripple_color_low_priority">#4800b1e5</color>
     <color name="notification_ripple_tinted_color">#8000b1e5</color>
 
+    <!-- The color of the material notification background -->
+    <color name="notification_material_background_color">#fffafafa</color>
+
     <!-- Nav Bar Ripple Color -->
     <color name="navbutton_ripple_color">@*common:color/theme_primary</color>
 

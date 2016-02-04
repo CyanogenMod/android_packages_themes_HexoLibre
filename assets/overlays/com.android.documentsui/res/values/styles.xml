@@ -5,10 +5,14 @@
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:actionBarPopupTheme">@android:style/ThemeOverlay.Material.Light</item>
+        <item name="android:actionModeBackground">@*common:color/theme_appbar</item>
         <item name="android:colorPrimary">@*common:color/theme_black</item>
         <item name="android:colorPrimaryDark">@*common:color/theme_primary_dark</item>
         <item name="android:colorAccent">@*common:color/theme_primary</item>
         <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
     <style name="DialogWhenReallyLarge" parent="@android:style/Theme.Material" />

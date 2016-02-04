@@ -4,10 +4,11 @@
     <style name="CellBroadcastSettingsTheme" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
         <item name="android:colorBackground">@*common:color/theme_dark</item>
-        <item name="android:statusBarColor">#FF000000</item>
+        <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
         <item name="android:textColorPrimary">@*common:color/theme_white</item>
-        <item name="android:textColorSecondary">@*common:color/theme_white</item>
+        <item name="android:textColorSecondary">@*common:color/theme_white_dark</item>
         <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
+        <item name="android:listDivider">@*common:drawable/list_divider_cyngn</item>
     </style>
 
 </resources>
