@@ -10,10 +10,14 @@
         <font weight="300" style="italic">Lato-LightItalic.ttf</font>
         <font weight="500" style="normal">Lato-Medium.ttf</font>
         <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
-        <font weight="900" style="normal">Lato-Black.ttf</font>
-        <font weight="900" style="italic">Lato-BlackItalic.ttf</font>
+        <font weight="600" style="normal">Lato-Semibold.ttf</font>
+        <font weight="600" style="italic">Lato-SemiboldItalic.ttf</font>
         <font weight="700" style="normal">Lato-Bold.ttf</font>
         <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+        <font weight="800" style="normal">Lato-Heavy.ttf</font>
+        <font weight="800" style="italic">Lato-HeavyItalic.ttf</font>
+        <font weight="900" style="normal">Lato-Black.ttf</font>
+        <font weight="900" style="italic">Lato-BlackItalic.ttf</font>
     </family>
 
     <!-- Note that aliases must come after the fonts they reference. -->
