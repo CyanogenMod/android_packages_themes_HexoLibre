@@ -22,15 +22,12 @@
     <!-- ================================================== -->
 
     <iconback img1="folder_01" img2="folder_02" img3="folder_03" img4="folder_04" img5="folder_05" img6="folder_06" />
-    <!-- <iconupon img="iconupon"/> -->
-    <!-- <iconmask img="iconmask"/> -->
     <scale factor=".65"/>
     <paletteback
         img="folder_07"
-        swatchType="vibrant"
-        defaultSwatchColor1="#00B1E5"
-        defaultSwatchColor2="#37474f"
-        defaultSwatchColor3="#424242"
+        swatchType="muted"
+        defaultSwatchColor1="#37474f"
+        defaultSwatchColor2="#424242"
         />
 
     <!-- ================================================== -->
