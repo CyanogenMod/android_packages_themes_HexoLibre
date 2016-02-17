@@ -10,9 +10,9 @@
     <color name="notif_text_grey">#9c9c9c</color>
     <color name="control_highlight_color">#42ffffff</color>
     <color name="notification_bg">#181818</color>
-    <color name="notification_icon_bg">#1C3742</color>
+    <color name="notification_icon_bg">#00B1E5</color>
     <color name="notification_pressed">#333333</color>
-    <color name="notification_divider">#272727</color>
+    <color name="notification_divider">#d9d9d9</color>
 
     <!-- App icon color as default -->
     <color name="default_background">#1a1a1a</color>
