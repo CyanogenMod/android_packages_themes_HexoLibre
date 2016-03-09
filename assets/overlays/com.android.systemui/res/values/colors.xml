@@ -37,10 +37,6 @@
     <color name="status_bar_temperature_text_color">@*common:color/theme_white</color>
     <color name="status_bar_temperature_location_text_color">@*common:color/theme_white_dark</color>
 
-    <!-- Volume Panel Zen Mode Icon Tint -->
-    <color name="segmented_button_selected">#FFFFFFFF</color>
-    <color name="segmented_button_unselected">#B3B0BEC5</color>
-
     <color name="volume_panel_divider">#1FFFFFFF</color>
 
     <!-- QS Settings Text Colors -->
@@ -48,5 +44,13 @@
     <color name="qs_title_text_color">@*common:color/theme_primary</color>
     <color name="qs_edit_header_instruction_text_color">@*common:color/theme_white</color>
     <color name="qs_row_text_color">@*common:color/theme_white</color>
+
+    <!-- Warning message bg color after choosing silence mode -->
+    <color name="zen_introduction_message_background">#14ffffff</color>
+
+    <!-- Zen modes in DND tile -->
+    <color name="segmented_buttons_background">#14FFFFFF</color>
+    <color name="segmented_button_selected">#FFFFFFFF</color>
+    <color name="segmented_button_unselected">#FFB0BEC5</color>
 
 </resources>
