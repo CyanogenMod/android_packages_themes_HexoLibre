@@ -15,21 +15,4 @@
         <item name="android:background">@*common:color/theme_black</item>
     </style>
 
-    <style name="GrantPermissions"
-           parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" />
-
-    <style name="padded">
-        <item name="android:paddingStart">16dip</item>
-        <item name="android:paddingEnd">16dip</item>
-    </style>
-
-    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar"/>
-
-    <style name="Theme.AlertDialogActivity" parent="@android:style/Theme.DeviceDefault.Light.Panel">
-        <item name="android:backgroundDimEnabled">true</item>
-    </style>
-
-    <style name="Theme.Header.Settings" parent="@android:style/Theme.DeviceDefault.Settings">
-    </style>
-
 </resources>
