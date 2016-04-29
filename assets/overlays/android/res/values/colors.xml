@@ -73,10 +73,11 @@
     <color name="notification_media_secondary_color">@color/primary_text_default_material_dark</color>
 
     <drawable name="notification_template_icon_bg">@*common:color/theme_primary</drawable>
+    <drawable name="notification_template_icon_low_bg">@*common:color/theme_primary</drawable>
     <drawable name="notification_template_divider">#00000000</drawable>
 
     <color name="notification_icon_bg_color">@*common:color/theme_primary</color>
-    <color name="system_notification_accent_color">#FF00b1e5</color>
+    <color name="system_notification_accent_color">@*common:color/theme_primary</color>
 
     <!-- TODO: This is 40% alpha on the default accent color. -->
     <color name="highlighted_text_material_dark">#6600b1e5</color>

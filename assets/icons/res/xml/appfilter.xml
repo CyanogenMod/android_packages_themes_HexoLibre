@@ -100,9 +100,9 @@
     <item component="ComponentInfo{com.microsoft.cortana/com.microsoft.bing.dss.SplashActivity}" drawable="apps_cortana" />
     <item component="ComponentInfo{com.microsoft.cortana/com.microsoft.bing.dss.widget.VoiceShortCutActivity}" drawable="apps_cortana_voice" />
 
-    <!--&lt;!&ndash; ================================================== &ndash;&gt;-->
-    <!--&lt;!&ndash; GOOGLE APPS                                        &ndash;&gt;-->
-    <!--&lt;!&ndash; ================================================== &ndash;&gt;-->
+    <!-- ================================================== -->
+    <!-- GOOGLE APPS                                        -->
+    <!-- ================================================== -->
 
     <!--<item component="ComponentInfo{com.google.zxing.client.android/com.google.zxing.client.android.CaptureActivity}" drawable="apps_barcodescanner"/>-->
     <!--<item component="ComponentInfo{com.google.android.apps.blogger/com.google.android.apps.blogger.SignInActivity}" drawable="google_blogger"/>-->
