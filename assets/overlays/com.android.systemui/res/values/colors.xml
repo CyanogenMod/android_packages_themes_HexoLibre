@@ -18,12 +18,23 @@
     <color name="qs_detail_progress_track">@*common:color/theme_primary</color>
     <color name="qs_subhead">#9900b1e5</color>
 
-    <color name="notification_ripple_untinted_color">#8000b1e5</color>
-    <color name="notification_ripple_color_low_priority">#4800b1e5</color>
-    <color name="notification_ripple_tinted_color">#8000b1e5</color>
-
     <!-- The color of the material notification background -->
-    <color name="notification_material_background_color">#fffafafa</color>
+    <color name="notification_material_background_color">#FFFAFAFA</color>
+
+    <!-- The color of the material notification background when dimmed -->
+    <color name="notification_material_background_dimmed_color">#FFFAFAFA</color>
+
+    <!-- The color of the material notification background when low priority -->
+    <color name="notification_material_background_low_priority_color">#FFeceff1</color>
+
+    <!-- The color of the ripples on the untinted notifications -->
+    <color name="notification_ripple_untinted_color">#8000b1e5</color>
+
+    <!-- The color of the ripples on the low priority notifications -->
+    <color name="notification_ripple_color_low_priority">#4800b1e5</color>
+
+    <!-- The color of the ripples on the tinted notifications -->
+    <color name="notification_ripple_tinted_color">#8000b1e5</color>
 
     <!-- Nav Bar Ripple Color -->
     <color name="navbutton_ripple_color">@*common:color/theme_primary</color>
