@@ -2,7 +2,7 @@
 <!--
  Copyright (C) 2016 Cyanogen, Inc.
  -->
-<manifest android:versionCode="2100" android:versionName="2.1" package="com.cyngn.hexo"
+<manifest android:versionCode="2200" android:versionName="2.2" package="com.cyngn.hexo"
   xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-sdk android:targetSdkVersion="23" android:minSdkVersion="23" />
