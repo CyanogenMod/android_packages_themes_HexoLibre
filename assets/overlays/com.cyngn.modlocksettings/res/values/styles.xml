@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 Cyanogen, Inc.
+-->
+<resources>
+    <style name="Theme.Main" parent="@android:style/Theme.Material.Settings">
+        <item name="android:actionBarStyle">@*common:style/Cyngn.AppBar</item>
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
+        <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
+        <item name="android:listDivider">@*common:drawable/list_divider_cyngn</item>
+    </style>
+
+</resources>
