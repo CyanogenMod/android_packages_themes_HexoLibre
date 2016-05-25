@@ -4,17 +4,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false">
         <nine-patch android:src="@drawable/switch_track_mtrl_alpha"
-            android:tint="@color/theme_accent"
+            android:tint="@*common:color/theme_primary"
             android:alpha="0.2" />
     </item>
     <item android:state_checked="true">
         <nine-patch android:src="@drawable/switch_track_mtrl_alpha"
-            android:tint="@color/theme_accent"
+            android:tint="@*common:color/theme_primary"
             android:alpha="0.6" />
     </item>
     <item>
         <nine-patch android:src="@drawable/switch_track_mtrl_alpha"
-            android:tint="@color/theme_accent"
+            android:tint="@*common:color/theme_primary"
             android:alpha="0.2" />
     </item>
 </selector>

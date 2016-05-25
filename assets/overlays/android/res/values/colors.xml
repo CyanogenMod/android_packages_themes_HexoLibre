@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="theme_primary">@*common:color/theme_primary</color>
-    <color name="theme_accent">@*common:color/theme_primary</color>
-    <color name="theme_dark">@*common:color/theme_dark</color>
-    <color name="theme_white">@*common:color/theme_white</color>
-    <color name="theme_black">@*common:color/theme_black</color>
     <color name="transparent">@*common:color/theme_transparent</color>
 
     <!-- User icon colors -->
@@ -78,11 +73,6 @@
 
     <color name="notification_icon_bg_color">@*common:color/theme_primary</color>
     <color name="system_notification_accent_color">@*common:color/theme_primary</color>
-
-    <!-- TODO: This is 40% alpha on the default accent color. -->
-    <color name="highlighted_text_material_dark">#6600b1e5</color>
-    <!-- TODO: This is 40% alpha on the default accent color. -->
-    <color name="highlighted_text_material_light">#6600b1e5</color>
 
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
