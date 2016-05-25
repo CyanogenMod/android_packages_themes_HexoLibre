@@ -41,7 +41,7 @@
         <item name="android:colorAccent">@*common:color/theme_primary</item>
         <item name="android:colorEdgeEffect">@*common:color/theme_edge</item>
         <item name="android:statusBarColor">@*common:color/theme_statusbar</item>
-        <item name="preferenceBackgroundColor">@drawable/preference_background</item>
+        <item name="@*com.android.settings:preferenceBackgroundColor">@drawable/preference_background</item>
     </style>
 
     <style name="settingSeparator">
