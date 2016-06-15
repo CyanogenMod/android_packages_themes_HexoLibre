@@ -3,8 +3,7 @@
      Copyright (C) 2016 Cyanogen, Inc.
 -->
 <resources>
-    <!-- Palette colors referenced by top-level themes. -->
-    <color name="theme_primary">#ff00b1e5</color>
-    <color name="theme_primary_dark">#ff21272b</color>
-    <color name="theme_accent">#ff00b1e5</color>
+    <color name="theme_primary">@*common:color/theme_primary</color>
+    <color name="theme_primary_dark">@*common:color/theme_primary_dark</color>
+    <color name="theme_accent">@*common:color/theme_primary</color>
 </resources>
