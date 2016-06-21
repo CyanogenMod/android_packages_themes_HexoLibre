@@ -17,6 +17,14 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
+#Define standard theme assets
+LOCAL_ASSET_DIR := $(LOCAL_PATH)/assets/
+
+#Define bacon appfilter overlay to disable gapps
+ifeq ($(TARGET_PRODUCT),cm_bacon)
+    LOCAL_ASSET_DIR := $(LOCAL_PATH)/device/bacon/assets $(LOCAL_PATH)/assets
+endif
+
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_PACKAGE_NAME := Hexo
