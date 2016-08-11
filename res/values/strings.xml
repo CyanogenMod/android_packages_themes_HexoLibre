@@ -2,8 +2,7 @@
 
 <resources>
 
-    <string name="theme_name">Hexo</string>
+    <string name="theme_name">HexoLibre</string>
     <string name="theme_author">Cyanogen Inc</string>
-    <string name="theme_email">support-themes@cyngn.com</string>
 
 </resources>
