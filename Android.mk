@@ -25,9 +25,4 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_PACKAGE_NAME := HexoLibre
 LOCAL_JAVA_LIBRARIES := framework-base
 
-# Sign the package when not using test-keys
-ifneq ($(DEFAULT_SYSTEM_DEV_CERTIFICATE),build/target/product/security/testkey)
-LOCAL_CERTIFICATE := cyngn-app
-endif
-
 include $(BUILD_PACKAGE)
