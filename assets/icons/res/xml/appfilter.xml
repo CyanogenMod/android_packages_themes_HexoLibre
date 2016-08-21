@@ -53,6 +53,7 @@
     <item component="ComponentInfo{com.cyngn.theme.chooser}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{com.cyngn.themestore}" drawable="cyngn_themestore"/>
     <item component="ComponentInfo{com.cyngn.theme.previewgen}" drawable="cyngn_previewgen"/>
+    <item component="ComponentInfo{org.cyanogenmod.gello.browser}" drawable="system_browser"/>
     <item component="ComponentInfo{org.cyanogenmod.screencast}" drawable="cyngn_cast"/>
     <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{org.cyanogenmod.snap}" drawable="cyngn_camera"/>
@@ -70,6 +71,7 @@
     <item component="ComponentInfo{com.android.dialer}" drawable="system_phone"/>
     <item component="ComponentInfo{com.android.deskclock}" drawable="system_clock"/>
     <item component="ComponentInfo{com.android.email}" drawable="system_email"/>
+    <item component="ComponentInfo{com.android.fmradio}" drawable="system_fmradio"/>
     <item component="ComponentInfo{com.android.gallery3d}" drawable="cyngn_gallery"/>
     <item component="ComponentInfo{com.android.messaging}" drawable="cyngn_messaging"/>
     <item component="ComponentInfo{com.android.mms}" drawable="cyngn_messaging"/>
@@ -82,7 +84,7 @@
     <item component="ComponentInfo{com.android.videoeditor}" drawable="system_moviestudio"/>
     <item component="ComponentInfo{com.android.voicedialer}" drawable="system_voicedialer"/>
     <item component="ComponentInfo{com.android.stk}" drawable="system_simtoolkit"/>
-    <item component="ComponentInfo{com.android.term}" drawable="apps_terminal"/>
+    <item component="ComponentInfo{com.android.terminal}" drawable="apps_terminal"/>
     <item component="ComponentInfo{com.caf.fmradio}" drawable="system_fmradio"/>
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings$WifiApSettingsActivity}" drawable="system_mobilehotspot"/>
 
