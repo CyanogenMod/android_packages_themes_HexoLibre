@@ -59,5 +59,6 @@
     <!-- Storage Summary Hard colors-->
     <color name="storage_summary_text_color">@*common:color/theme_primary</color>
     <color name="storage_summary_used_text_color">@*common:color/theme_white_dark</color>
+    <color name="eject_icon_tint_color">@*common:color/theme_white_dark</color>
 
 </resources>
